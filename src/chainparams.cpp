@@ -56,7 +56,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	( 0, uint256("0x001"));
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1454124731, // * UNIX timestamp of last checkpoint block
+        1530507900, // * UNIX timestamp of last checkpoint block
         0,     // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         500        // * estimated number of transactions per day after checkpoint
@@ -67,7 +67,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
 	( 0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
-        1454124731,
+        1530507901,
         0,
         250
     };
@@ -78,7 +78,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
         ;
 static const Checkpoints::CCheckpointData dataRegtest = {
         &mapCheckpointsRegtest,
-        1454124731,
+        1530507902,
         0,
         100
     };
@@ -97,16 +97,16 @@ public:
         pchMessageStart[1] = 0xc4;
         pchMessageStart[2] = 0xfd;
         pchMessageStart[3] = 0xe9;
-        vAlertPubKey = ParseHex("0484698d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50");
-        nDefaultPort = 51472;
-        bnProofOfWorkLimit = ~uint256(0) >> 20;  // DarkNet starting difficulty is 1 / 2^12
+        vAlertPubKey = ParseHex("046cd29c1fe9cf88b091148fc28d602d9ec919827878e78c5d5cc543510362aaeae2a02e6d84c88a0e9ecaeef00c4453f8777c4c0c7cd0f6ff17d1eb941ee98e90");
+        nDefaultPort = 50472;
+        bnProofOfWorkLimit = ~uint256(0) >> 20;  // Smc-coin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DarkNet: 1 day
-        nTargetSpacing = 1 * 60; // DarkNet: 1 minute
+        nTargetTimespan = 1 * 60; // Smc-coin: 1 day
+        nTargetSpacing = 1 * 60; // Smc-coin: 1 minute
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -118,30 +118,27 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "U.S. News & World Report Jan 28 2016 With His Absence, Trump Dominates Another Debate";
+        const char* pszTimestamp = "SMC siberian mining center. It was created in may 2018";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 250 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04c10e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("048042f188c917cd3feba934c9dedd5879cb0e57575443d6cc9fc5e2bf7b86f375e5318eaefbc1de288e3e52e70bfb0fdb9410e9539241f0afc91c0a84274174db") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1454124731;
+        genesis.nTime    = 1530507900;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 2402015;
+        genesis.nNonce   = 894245;
 	
 	hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(hashGenesisBlock == uint256("0x000009a1a3624def22d73e17d738de32ab82052c728f023d7ecd5971ed527fc6"));
+        assert(genesis.hashMerkleRoot == uint256("0x9118468ae835ccfceb30b03a64e07e503f6d3d4bc3e59a3b3be960284b4ccd43"));
 
-        vSeeds.push_back(CDNSSeedData("dnsseed.darknet-crypto.com", ""));
-        vSeeds.push_back(CDNSSeedData("daarknet.coin-server.com", ""));
-        vSeeds.push_back(CDNSSeedData("162.213.154.31", ""));
-        vSeeds.push_back(CDNSSeedData("173.245.148.70", ""));
-        vSeeds.push_back(CDNSSeedData("151.80.206.104", ""));
+        vFixedSeeds.clear();
+        vSeeds.clear();
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of( 30);                    
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 13);                    
@@ -162,10 +159,10 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04549ac134f694c0243f503e8c8a9a986f5de6610049c40b07816809b0d1d06a21b07be27b9bb555931773f62ba6cf35a25fd52f694d4e1106ccd237a7bb899fdd";
-        strMasternodePaymentsPubKey = "04549ac134f694c0243f503e8c8a9a986f5de6610049c40b07816809b0d1d06a21b07be27b9bb555931773f62ba6cf35a25fd52f694d4e1106ccd237a7bb899fdd";
+        strSporkKey = "04f98e9824c0301ebed2dffe6ed76483f8e95891d67074e6c7069f90cf7f41f6de6f4191186d4f66d78d2e372b144964f6d546defce799966693bfb32d8adea07a";
+        strMasternodePaymentsPubKey = "04f98e9824c0301ebed2dffe6ed76483f8e95891d67074e6c7069f90cf7f41f6de6f4191186d4f66d78d2e372b144964f6d546defce799966693bfb32d8adea07a";
         strObfuscatePoolDummyAddress = "Xq19GqFvajRrEdDHYRKGYjTsQfpV5jyipF";
-        nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = 1530507900; //Wed, 25 Jun 2014 20:36:16 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -187,21 +184,21 @@ public:
         pchMessageStart[1] = 0x76;
         pchMessageStart[2] = 0x65;
         pchMessageStart[3] = 0xba;
-        vAlertPubKey = ParseHex("04c10e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9");
-        nDefaultPort = 51474;
+        vAlertPubKey = ParseHex("044f20ed748494cafab9c7d14d4bba42c2e03c742e6812ec177d186eeeaf101c04376fb2286d04ca708a291c8c555c729050b1cb50131e19c79173aed34c2e288b");
+        nDefaultPort = 50474;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DarkNet: 1 day
-        nTargetSpacing = 1 * 60; // DarkNet: 1 minute
+        nTargetTimespan = 1 * 60; // Smc-coin: 1 day
+        nTargetSpacing = 1 * 60; // Smc-coin: 1 minute
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1454124731;
-        genesis.nNonce = 2402015;
+        genesis.nTime = 1530507901;
+        genesis.nNonce = 557765;
 	
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
+        assert(hashGenesisBlock == uint256("0x0000059d51d115bec60b2c56f2d27fdded987d312ed0b755147717ee0e5344a5"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -224,8 +221,8 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "0484698d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50";
-        strMasternodePaymentsPubKey = "0484698d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50";
+        strSporkKey = "04f869bae0608e8e978618e5cdd984e29a96afbb1c48ebbd5a0c9161673ebadc86f30c844dac8f444618ed30975f017177b1a49f0667443c16d71292a5c8e7856b";
+        strMasternodePaymentsPubKey = "04f869bae0608e8e978618e5cdd984e29a96afbb1c48ebbd5a0c9161673ebadc86f30c844dac8f444618ed30975f017177b1a49f0667443c16d71292a5c8e7856b";
         strObfuscatePoolDummyAddress = "y1EZuxhhNMAUofTBEeLqGE1bJrpC2TWRNp";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
     }
@@ -254,16 +251,16 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // DarkNet: 1 day
+        nTargetTimespan = 24 * 60 * 60; // Smc-coin: 1 day
         nTargetSpacing = 1 * 60; // Darknet: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1454124731;
+        genesis.nTime = 1530507902;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 51476;
-        assert(hashGenesisBlock == uint256("0x4f023a2120d9127b21bbad01724fdb79b519f593f2a85b60d3d79160ec5f29df"));
+        nDefaultPort = 50476;
+        assert(hashGenesisBlock == uint256("0x3ec5b65ff06f8dd009734332668c17bd060ea5d412956de18f2ded496531fd8e"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Testnet mode doesn't have any DNS seeds.
@@ -291,7 +288,7 @@ public:
     CUnitTestParams() {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 18445;
+        nDefaultPort = 10445;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Unit test mode doesn't have any DNS seeds.
 

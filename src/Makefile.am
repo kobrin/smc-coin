@@ -64,11 +64,11 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += darknet-cli darknet-tx
+  bin_PROGRAMS += smc-coin-cli smc-coin-tx
 endif
 
 .PHONY: FORCE
-# darknet core #
+# smc-coin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -170,7 +170,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between darknetd and darknet-qt
+# server: shared between darknetd and smc-coin-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -202,7 +202,7 @@ libbitcoin_server_a_SOURCES = \
   $(JSON_H) \
   $(BITCOIN_CORE_H)
 
-# wallet: shared between darknetd and darknet-qt, but only linked
+# wallet: shared between darknetd and smc-coin-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_SOURCES = \
@@ -268,7 +268,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between darknetd, and darknet-qt and non-server tools
+# common: shared between darknetd, and smc-coin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -323,7 +323,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between darknet-cli and darknet-qt
+# cli: shared between smc-coin-cli and smc-coin-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -358,7 +358,7 @@ darknetd_CPPFLAGS = $(BITCOIN_INCLUDES)
 darknetd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# darknet-cli binary #
+# smc-coin-cli binary #
 darknet_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
@@ -367,12 +367,12 @@ darknet_cli_LDADD = \
   $(CRYPTO_LIBS)
 
 darknet_cli_SOURCES = \
-  darknet-cli.cpp
+  smc-coin-cli.cpp
 
 darknet_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# darknet-tx binary #
+# smc-coin-tx binary #
 darknet_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
@@ -382,13 +382,13 @@ darknet_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-darknet_tx_SOURCES = darknet-tx.cpp
+darknet_tx_SOURCES = smc-coin-tx.cpp
 darknet_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 darknet_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-darknet_cli_SOURCES += darknet-cli-res.rc
+darknet_cli_SOURCES += smc-coin-cli-res.rc
 endif
 darknet_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 

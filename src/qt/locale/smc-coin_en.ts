@@ -336,8 +336,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and darknet: URIs)</source>
-        <translation>Request payments (generates QR codes and darknet: URIs)</translation>
+        <source>Request payments (generates QR codes and smc-coin: URIs)</source>
+        <translation>Request payments (generates QR codes and smc-coin: URIs)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -562,8 +562,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a darknet: URI or payment request</source>
-        <translation>Open a darknet: URI or payment request</translation>
+        <source>Open a smc-coin: URI or payment request</source>
+        <translation>Open a smc-coin: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1587,9 +1587,9 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/darknet/</source>
+https://www.transifex.com/projects/p/smc-coin/</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/darknet/</translation>
+https://www.transifex.com/projects/p/smc-coin/</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1990,8 +1990,8 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start darknet: click-to-pay handler</source>
-        <translation>Cannot start darknet: click-to-pay handler</translation>
+        <source>Cannot start smc-coin: click-to-pay handler</source>
+        <translation>Cannot start smc-coin: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+104"/>
@@ -2925,8 +2925,8 @@ https://www.transifex.com/projects/p/darknet/</translation>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for darknet transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for darknet transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for smc-coin transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for smc-coin transactions than the network can process.</translation>
     </message>
     <message>
         <location line="-59"/>
@@ -3268,8 +3268,8 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the darknet: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>A message that was attached to the darknet: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</translation>
+        <source>A message that was attached to the smc-coin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <translation>A message that was attached to the smc-coin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</translation>
     </message>
     <message>
         <location line="+426"/>
@@ -4242,7 +4242,7 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
 </context>
 <context>
-    <name>darknet-core</name>
+    <name>smc-coin-core</name>
     <message>
         <location filename="../darknetstrings.cpp" line="+22"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -4730,7 +4730,7 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use darknetd, or the -server option to darknet-qt, you must set an rpcpassword in the configuration file:
+        <source>To use darknetd, or the -server option to smc-coin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=darknetrpc
@@ -4741,7 +4741,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Dash Alert&quot; admin@foo.com
 </source>
-        <translation>To use darknetd, or the -server option to darknet-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use darknetd, or the -server option to smc-coin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=darknetrpc
@@ -4785,8 +4785,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dash Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+6"/>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 could be used only on mainnet)</translation>
+        <source>(50472 could be used only on mainnet)</source>
+        <translation>(50472 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>

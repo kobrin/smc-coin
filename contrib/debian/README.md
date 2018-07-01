@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package darknetd/darknet-qt
-for Debian-based Linux systems. If you compile darknetd/darknet-qt yourself, there are some useful files here.
+This directory contains files used to package darknetd/smc-coin-qt
+for Debian-based Linux systems. If you compile darknetd/smc-coin-qt yourself, there are some useful files here.
 
-## darknet: URI support ##
+## smc-coin: URI support ##
 
 
-darknet-qt.desktop  (Gnome / Open Desktop)
+smc-coin-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install darknet-qt.desktop
+	sudo desktop-file-install smc-coin-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your darknet-qt binary to `/usr/bin`
+the .desktop file or copy or symlink your smc-coin-qt binary to `/usr/bin`
 and the `../../share/pixmaps/darknet128.png` to `/usr/share/pixmaps`
 
-darknet-qt.protocol (KDE)
+smc-coin-qt.protocol (KDE)
 

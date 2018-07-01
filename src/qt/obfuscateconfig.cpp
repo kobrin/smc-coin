@@ -42,7 +42,7 @@ void ObfuscateConfig::clickBasic()
         model->getOptionsModel()->getDisplayUnit(), 10000 * COIN));
     QMessageBox::information(this, tr("Obfuscate Configuration"),
         tr(
-            "Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DarkNet's configuration screen."
+            "Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Smc-coin's configuration screen."
         ).arg(strAmount)
     );
 
@@ -57,7 +57,7 @@ void ObfuscateConfig::clickHigh()
         model->getOptionsModel()->getDisplayUnit(), 10000 * COIN));
     QMessageBox::information(this, tr("Obfuscate Configuration"),
         tr(
-            "Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DarkNet's configuration screen."
+            "Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Smc-coin's configuration screen."
         ).arg(strAmount)
     );
 
@@ -72,7 +72,7 @@ void ObfuscateConfig::clickMax()
         model->getOptionsModel()->getDisplayUnit(), 10000 * COIN));
     QMessageBox::information(this, tr("Obfuscate Configuration"),
         tr(
-            "Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DarkNet's configuration screen."
+            "Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Smc-coin's configuration screen."
         ).arg(strAmount)
     );
 

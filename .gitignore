@@ -6,10 +6,10 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/darknet
+src/smc-coin
 src/darknetd
-src/darknet-cli
-src/darknet-tx
+src/smc-coin-cli
+src/smc-coin-tx
 src/test/test_darknet
 src/qt/test/test_darknet-qt
 
@@ -34,8 +34,8 @@ config.log
 config.status
 configure
 libtool
-src/config/darknet-config.h
-src/config/darknet-config.h.in
+src/config/smc-coin-config.h
+src/config/smc-coin-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -60,7 +60,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.darknet
+.smc-coin
 *.a
 *.pb.cc
 *.pb.h
@@ -79,12 +79,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-darknet-qt
-DarkNet-Qt.app
+smc-coin-qt
+Smc-coin-Qt.app
 
 # Unit-tests
 Makefile.test
-darknet-qt_test
+smc-coin-qt_test
 src/test/buildenv.py
 
 # Resources cpp

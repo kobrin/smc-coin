@@ -263,7 +263,7 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and darknet: URIs)</source>
+        <source>Request payments (generates QR codes and smc-coin: URIs)</source>
         <translation>Pyydä maksuja (Luo QR koodit ja Dash: URIt)</translation>
     </message>
     <message>
@@ -443,7 +443,7 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a darknet: URI or payment request</source>
+        <source>Open a smc-coin: URI or payment request</source>
         <translation>Avaa Dash: URI tai maksupyyntö</translation>
     </message>
     <message>
@@ -1264,9 +1264,9 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/darknet/</source>
+https://www.transifex.com/projects/p/smc-coin/</source>
         <translation>Puuttuuko sopiva kieli tai käännös on kesken? Auta käännöstyössä täällä:
-https://www.transifex.com/projects/p/darknet/</translation>
+https://www.transifex.com/projects/p/smc-coin/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1569,7 +1569,7 @@ https://www.transifex.com/projects/p/darknet/</translation>
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start darknet: click-to-pay handler</source>
+        <source>Cannot start smc-coin: click-to-pay handler</source>
         <translation>Ei voi käynnistää Dashia: click-to-pay handler</translation>
     </message>
     <message>
@@ -2297,7 +2297,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "yhteensä vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for darknet transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for smc-coin transactions than the network can process.</source>
         <translation>Minimi siirtomaksun maksaminen on ok niin kauan kun siirtotapahtumien määrä on pienempi kuin tila lohkoissa.&lt;br /&gt;Mutta ota huomioon että tämä voi johtaa siirtotapahtumaan jota ei vahvisteta koskaan, jos siirtotapahtumia on enemmän kuin verkko voi käsitellä.</translation>
     </message>
     <message>
@@ -2564,7 +2564,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Viesti:</translation>
     </message>
     <message>
-        <source>A message that was attached to the darknet: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the smc-coin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
         <translation>Viesti joka liitettiin Dash: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä Dash verkkoon.</translation>
     </message>
     <message>
@@ -3325,7 +3325,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
 </context>
 <context>
-    <name>darknet-core</name>
+    <name>smc-coin-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
@@ -3717,7 +3717,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 Käännös päivitetty: 1.9.2015 by AjM.</translation>
     </message>
     <message>
-        <source>To use darknetd, or the -server option to darknet-qt, you must set an rpcpassword in the configuration file:
+        <source>To use darknetd, or the -server option to smc-coin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=darknetrpc
@@ -3728,7 +3728,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Dash Alert" admin@foo.com
 </source>
-        <translation>Käyttääksesi darknetd:ia tai -server valintaa darknet-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
+        <translation>Käyttääksesi darknetd:ia tai -server valintaa smc-coin-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
 %s
 Suositellaan että käytät allaolevaa satunnaista salasanaa:
 rpcuser=darknetrpc
@@ -3765,8 +3765,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Dash Hälytys" admin@foo.com
         <translation>Luotettaviksi merkittyjä peers:ejä ei voida DoS estää, ja niiden siirtotapahtumat välitetään aina, vaikka ne olisvatkin jo muistivarannossa, käyttökelpoinen esim. yhdyskäytävään</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 voidaan käyttää vain pääverkossa)</translation>
+        <source>(50472 could be used only on mainnet)</source>
+        <translation>(50472 voidaan käyttää vain pääverkossa)</translation>
     </message>
     <message>
         <source>(default: %s)</source>

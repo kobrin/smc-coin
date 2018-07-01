@@ -1,6 +1,6 @@
 [Protocol]
-exec=darknet-qt '%u'
-protocol=darknet
+exec=smc-coin-qt '%u'
+protocol=smc-coin
 input=none
 output=none
 helper=true

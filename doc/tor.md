@@ -10,7 +10,7 @@ port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.htm
 for how to properly configure Tor.
 
 
-1. Run darknet behind a Tor proxy
+1. Run smc-coin behind a Tor proxy
 ----------------------------------
 
 The first step is running Dash behind a Tor proxy. This will already make all
@@ -44,24 +44,24 @@ In a typical situation, this suffices to run behind a Tor proxy:
 	./darknetd -proxy=127.0.0.1:9050
 
 
-2. Run a darknet hidden server
+2. Run a smc-coin hidden server
 -------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
 reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equivalent
 config file):
 
-	HiddenServiceDir /var/lib/tor/darknet-service/
-	HiddenServicePort 51472 127.0.0.1:51472
+	HiddenServiceDir /var/lib/tor/smc-coin-service/
+	HiddenServicePort 50472 127.0.0.1:50472
 	HiddenServicePort 51474 127.0.0.1:51474
 
 The directory can be different of course, but (both) port numbers should be equal to
-your darknetd's P2P listen port (51472 by default).
+your darknetd's P2P listen port (50472 by default).
 
-	-externalip=X   You can tell darknet about its publicly reachable address using
+	-externalip=X   You can tell smc-coin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your onion address in
-	                /var/lib/tor/darknet-service/hostname. Onion addresses are given
+	                /var/lib/tor/smc-coin-service/hostname. Onion addresses are given
 	                preference for your node to advertize itself with, for connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs).
@@ -86,7 +86,7 @@ specify:
 
 	./darknetd ... -discover
 
-and open port 51472 on your firewall (or use -upnp).
+and open port 50472 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
@@ -94,7 +94,7 @@ for normal IPv4/IPv6 communication, use:
 	./darknetd -onion=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -discover
 
 
-3. List of known darknet Tor relays
+3. List of known smc-coin Tor relays
 ------------------------------------
 
 * [darknetie7ghp67.onion](http://darknetie7ghp67.onion/)

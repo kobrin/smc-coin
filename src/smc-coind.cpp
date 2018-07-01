@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2016 The DarkNet developers
+// Copyright (c) 2015-2016 The Smc-coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,8 +24,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called DarkNet (http://www.darknet-crypto.com),
- * which enables instant payments to anyone, anywhere in the world. DarkNet uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Smc-coin (http://www.smc-coin.com),
+ * which enables instant payments to anyone, anywhere in the world. Smc-coin uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -66,7 +66,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/darknet.conf are parsed in qt/darknet.cpp's main()
+    // If Qt is used, parameters/smc-coin.conf are parsed in qt/smc-coin.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -120,19 +120,19 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "darknet:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "smc-coin:"))
                 fCommandLine = true;
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in darknetd anymore. Use the darknet-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in darknetd anymore. Use the smc-coin-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "DarkNet server starting\n");
+            fprintf(stdout, "Smc-coin server starting\n");
 
             // Daemonize
             pid_t pid = fork();

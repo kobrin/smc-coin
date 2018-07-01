@@ -1,7 +1,7 @@
 # /etc/conf.d/darknetd: config file for /etc/init.d/darknetd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/darknet/darknet.conf"
+#BITCOIND_CONFIGFILE="/etc/smc-coin/smc-coin.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
 #BITCOIND_PIDDIR="/var/run/darknetd"
@@ -13,8 +13,8 @@
 #BITCOIND_DATADIR="/var/lib/darknetd"
 
 # User and group to own darknetd process
-#BITCOIND_USER="darknet"
-#BITCOIND_GROUP="darknet"
+#BITCOIND_USER="smc-coin"
+#BITCOIND_GROUP="smc-coin"
 
 # Path to darknetd executable
 #BITCOIND_BIN="/usr/bin/darknetd"

@@ -17,14 +17,14 @@ You need the Qt4 run-time libraries to run Dash-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/darknet-qt (GUI, 32-bit) or bin/32/darknetd (headless, 32-bit)
-- bin/64/darknet-qt (GUI, 64-bit) or bin/64/darknetd (headless, 64-bit)
+- bin/32/smc-coin-qt (GUI, 32-bit) or bin/32/darknetd (headless, 32-bit)
+- bin/64/smc-coin-qt (GUI, 64-bit) or bin/64/darknetd (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run darknet-qt.exe.
+Unpack the files into a directory, and then run smc-coin-qt.exe.
 
 ### OSX
 
@@ -46,7 +46,7 @@ The following are developer notes on how to build Dash on your native platform. 
 
 Development
 ---------------------
-The Dash repo's [root README](https://github.com/darknetpay/darknet/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Dash repo's [root README](https://github.com/kobrin/smc-coin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

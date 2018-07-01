@@ -2,7 +2,7 @@ Release Process
 ====================
 
 * update translations (ping wumpus, Diapolo or tcatm on IRC)
-* see https://github.com/darknetpay/darknet/blob/master/doc/translation_process.md#syncing-with-transifex
+* see https://github.com/kobrin/smc-coin/blob/master/doc/translation_process.md#syncing-with-transifex
 
 * * *
 
@@ -33,7 +33,7 @@ Release Process
 
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./darknet
+	pushd ./smc-coin
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -54,29 +54,29 @@ Release Process
 
   By default, gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
-	make -C ../darknet/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../smc-coin/depends download SOURCES_PATH=`pwd`/cache/common
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build DarkNet Core for Linux, Windows, and OS X:
+###Build Smc-coin Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit darknet=v${VERSION} ../darknet/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../darknet/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/darknet-*.tar.gz build/out/src/darknet-*.tar.gz ../
-	./bin/gbuild --commit darknet=v${VERSION} ../darknet/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../darknet/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/darknet-*.zip build/out/darknet-*.exe ../
-	./bin/gbuild --commit bitcoin=v${VERSION} ../darknet/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../darknet/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/darknet-*-unsigned.tar.gz inputs/darknet-osx-unsigned.tar.gz
-	mv build/out/darknet-*.tar.gz build/out/darknet-*.dmg ../
+	./bin/gbuild --commit smc-coin=v${VERSION} ../smc-coin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../smc-coin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/smc-coin-*.tar.gz build/out/src/smc-coin-*.tar.gz ../
+	./bin/gbuild --commit smc-coin=v${VERSION} ../smc-coin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../smc-coin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/smc-coin-*.zip build/out/smc-coin-*.exe ../
+	./bin/gbuild --commit bitcoin=v${VERSION} ../smc-coin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../smc-coin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/smc-coin-*-unsigned.tar.gz inputs/smc-coin-osx-unsigned.tar.gz
+	mv build/out/smc-coin-*.tar.gz build/out/smc-coin-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (darknet-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit binaries dist tarballs (darknet-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit installers and dist zips (darknet-${VERSION}-win[32|64]-setup.exe, darknet-${VERSION}-win[32|64].zip)
-  4. OSX unsigned installer (darknet-${VERSION}-osx-unsigned.dmg)
+  1. source tarball (smc-coin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (smc-coin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (smc-coin-${VERSION}-win[32|64]-setup.exe, smc-coin-${VERSION}-win[32|64].zip)
+  4. OSX unsigned installer (smc-coin-${VERSION}-osx-unsigned.dmg)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your gitian key)/
 
 ###Next steps:
@@ -100,9 +100,9 @@ Commit your signature to gitian.sigs:
 	pushd ./gitian-builder
 	# Fetch the signature as instructed by Evan
 	cp signature.tar.gz inputs/
-	./bin/gbuild -i ../darknet/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../darknet/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/darknet-osx-signed.dmg ../darknet-${VERSION}-osx.dmg
+	./bin/gbuild -i ../smc-coin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../smc-coin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/smc-coin-osx-signed.dmg ../smc-coin-${VERSION}-osx.dmg
 	popd
 
 Commit your signature for the signed OSX binary:

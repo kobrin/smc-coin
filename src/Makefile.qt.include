@@ -1,7 +1,7 @@
-bin_PROGRAMS += qt/darknet-qt
+bin_PROGRAMS += qt/smc-coin-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# darknet qt core #
+# smc-coin qt core #
 QT_TS = \
   qt/locale/darknet_bg.ts \
   qt/locale/darknet_de.ts \
@@ -90,14 +90,14 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/darknet.moc \
+  qt/smc-coin.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
 QT_QRC_CPP = qt/qrc_darknet.cpp
-QT_QRC = qt/darknet.qrc
+QT_QRC = qt/smc-coin.qrc
 QT_QRC_LOCALE_CPP = qt/qrc_darknet_locale.cpp
 QT_QRC_LOCALE = qt/darknet_locale.qrc
 
@@ -307,7 +307,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/darknet-qt-res.rc
+BITCOIN_RC = qt/res/smc-coin-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -334,11 +334,11 @@ $(qt_libbitcoinqt_a_OBJECTS) $(qt_darknet_qt_OBJECTS) : | $(QT_MOC)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# darknet-qt binary #
+# smc-coin-qt binary #
 qt_darknet_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_darknet_qt_SOURCES = qt/darknet.cpp
+qt_darknet_qt_SOURCES = qt/smc-coin.cpp
 if TARGET_DARWIN
   qt_darknet_qt_SOURCES += $(BITCOIN_MM)
 endif
@@ -375,7 +375,7 @@ $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name darknet $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name smc-coin $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
@@ -383,9 +383,9 @@ CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda 
 CLEANFILES += $(CLEAN_QT)
 
 darknet_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_darknet_qt_OBJECTS) qt/darknet-qt$(EXEEXT) $(LIBBITCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_darknet_qt_OBJECTS) qt/smc-coin-qt$(EXEEXT) $(LIBBITCOINQT)
 
-darknet_qt : qt/darknet-qt$(EXEEXT)
+darknet_qt : qt/smc-coin-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

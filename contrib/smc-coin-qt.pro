@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscate-relay.h \
            src/obfuscate.h \
-           src/darknet-config.h \
+           src/smc-coin-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/darknet-config.h \
+           src/config/smc-coin-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/darknet.moc \
+           src/qt/smc-coin.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,8 +374,8 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscate-relay.cpp \
            src/obfuscate.cpp \
-           src/darknet-cli.cpp \
-           src/darknet-tx.cpp \
+           src/smc-coin-cli.cpp \
+           src/smc-coin-tx.cpp \
            src/darknetd.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
@@ -471,7 +471,7 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscateconfig.cpp \
-           src/qt/darknet.cpp \
+           src/qt/smc-coin.cpp \
            src/qt/darknetstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
@@ -641,7 +641,7 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/darknet.qrc src/qt/darknet_locale.qrc
+RESOURCES += src/qt/smc-coin.qrc src/qt/darknet_locale.qrc
 TRANSLATIONS += src/qt/locale/darknet_bg.ts \
                 src/qt/locale/darknet_de.ts \
                 src/qt/locale/darknet_en.ts \

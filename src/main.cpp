@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2016 The DarkNet developers
+// Copyright (c) 2015-2016 The Smc-coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -40,7 +40,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-# error "DarkNet cannot be compiled without assertions."
+# error "Smc-coin cannot be compiled without assertions."
 #endif
 
 /**
@@ -88,7 +88,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "DarkNet Signed Message:\n";
+const string strMessageMagic = "Smc-coin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -1954,7 +1954,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("darknet-scriptch");
+    RenameThread("smc-coin-scriptch");
     scriptcheckqueue.Thread();
 }
 

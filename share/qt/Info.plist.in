@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.darknet.DashPayment</string>
+      <string>io.smc-coin.DashPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>darknet</string>
+        <string>smc-coin</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.darknet.paymentrequest</string>
+      <string>io.smc-coin.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Dash payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,7 +62,7 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-darknet-payment-request</string>
+        <string>application/x-smc-coin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>darknetpaymentrequest</string>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.darknet.paymentrequest</string>
+        <string>io.smc-coin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

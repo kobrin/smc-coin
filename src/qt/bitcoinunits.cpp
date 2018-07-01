@@ -42,7 +42,7 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case DNET: return QString("darknet");
+        case DNET: return QString("smc-coin");
         case mDNET: return QString("mdarknet");
         case uDNET: return QString::fromUtf8("udarknet");
         default: return QString("???");

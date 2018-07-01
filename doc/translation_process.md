@@ -7,12 +7,12 @@ handle those translations.
 Files and Folders
 -----------------
 
-### darknet-qt.pro
+### smc-coin-qt.pro
 
 This file takes care of generating `.qm` files from `.ts` files. It is mostly
 automated.
 
-### src/qt/darknet.qrc
+### src/qt/smc-coin.qrc
 
 This file must be updated whenever a new translation is added. Please note that
 files must end with `.qm`, not `.ts`.
@@ -70,7 +70,7 @@ Syncing with Transifex
 
 We are using https://transifex.com as a frontend for translating the client.
 
-https://www.transifex.com/projects/p/darknet/
+https://www.transifex.com/projects/p/smc-coin/
 
 The "Transifex client" (see: http://support.transifex.com/customer/portal/topics/440187-transifex-client/articles)
 is used to fetch new translations from Transifex. The configuration for this client (`.tx/config`)
@@ -82,7 +82,7 @@ postprocessing steps before committing the translations.
 ### Fetching new translations
 
 1. `python contrib/devtools/update-translations.py`
-2. update `src/qt/darknet.qrc` manually or via
+2. update `src/qt/smc-coin.qrc` manually or via
    `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(darknet_\(.*\)\).ts/        <file alias="\2">locale\/\1.qm<\/file>/'`
 3. update `src/Makefile.qt.include` manually or via
    `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(darknet_\(.*\)\).ts/  qt\/locale\/\1.ts \\/'`

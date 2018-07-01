@@ -1,231 +1,231 @@
-<TS language="de" version="2.0">
+<TS language="sk" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Rechts-Klick um Adresse oder Bezeichnung zu bearbeiten</translation>
+        <translation>Pre úpravu adresy alebo popisu kliknite pravým tlačidlom myši</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Eine neue Adresse erstellen</translation>
+        <translation>Vytvoriť novú adresu</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Neu</translation>
+        <translation>&amp;Nové</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Ausgewählte Adresse in die Zwischenablage kopieren</translation>
+        <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopieren</translation>
+        <translation>&amp;Kopírovať</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Ausgewählte Adresse aus der Liste entfernen</translation>
+        <translation>Odstrániť vybranú adresu zo zoznamu</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Löschen</translation>
+        <translation>&amp;Odstániť</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Daten der aktuellen Ansicht in eine Datei exportieren</translation>
+        <translation>Exportovať tento náhľad do súboru</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exportieren</translation>
+        <translation>&amp;Exportovať...</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Schließen</translation>
+        <translation>Zatvoriť</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie Dash überweisen möchten</translation>
+        <translation>Zvoľte adresu kam poslať coins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie Dash empfangen wollen</translation>
+        <translation>Zvoľte adresu na ktorú prijať coins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>&amp;Auswählen</translation>
+        <translation>Vybrať</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Zahlungsadressen</translation>
+        <translation>Adresa odoslania</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Empfangsadressen</translation>
+        <translation>Adresa prijatia</translation>
     </message>
     <message>
         <source>These are your Dash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre Dash-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Dash überweisen.</translation>
+        <translation>Toto sú Vaše Dash adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
         <source>These are your Dash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre Dash-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <translation>Toto sú Vaše Dash adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Adresse kopieren</translation>
+        <translation>&amp;Kopírovať adresu</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>&amp;Bezeichnung kopieren</translation>
+        <translation>Kopírovať &amp;popis</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Editieren</translation>
+        <translation>&amp;Upraviť</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Adressliste exportieren</translation>
+        <translation>Exportovať zoznam adries</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagetrennte-Datei (*.csv)</translation>
+        <translation>Čiarkou oddelený súbor (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Exportieren fehlgeschlagen</translation>
+        <translation>Export zlyhal</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Beim Speichern der Adressliste nach %1 ist ein Fehler aufgetreten. Bitte noch einmal versuchen</translation>
+        <translation>Nastala chyba pri pokuse uložiť zoznam adries do %1. Prosím skúste znovu.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Bezeichnung</translation>
+        <translation>Popis</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <translation>(bez popisu)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Passphrasendialog</translation>
+        <translation>Dialóg hesla</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Passphrase eingeben</translation>
+        <translation>Zadajte heslo</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Neue Passphrase</translation>
+        <translation>Nové heslo</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Neue Passphrase wiederholen</translation>
+        <translation>Zopakujte nové heslo</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Verhindert das einfache Überweisen von Geld, falls das Systemkonto kompromittiert wurde. Bietet keine wirkliche Sicherheit.</translation>
+        <translation>Slúži na vypnutie triviálneho posielania peňazí v prípade napadnutého účtu operačného systému. Neposkytuje skutočnú bezpečnosť. </translation>
     </message>
     <message>
         <source>For anonymization only</source>
-        <translation>Nur zur Anonymisierung</translation>
+        <translation>Iba pre anonimizáciu</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Geben Sie die neue Passphrase für die Wallet ein.&lt;br&gt;Bitte benutzen Sie eine Passphrase bestehend aus &lt;b&gt;10 oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;8 oder mehr Wörtern&lt;/b&gt;.</translation>
+        <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou aspon &lt;b&gt;10 alebo viac náhodných znakov&lt;/b&gt;, alebo &lt;b&gt;8 alebo viac slov&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Wallet verschlüsseln</translation>
+        <translation>Zašifrovať peňaženku</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Dieser Vorgang benötigt ihre Passphrase, um die Wallet zu entsperren.</translation>
+        <translation>Táto operácia potrebuje heslo k vašej peňaženke aby ju mohla dešifrovať.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Wallet entsperren</translation>
+        <translation>Odomknúť peňaženku</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Dieser Vorgang benötigt ihre Passphrase, um die Wallet zu entschlüsseln.</translation>
+        <translation>Táto operácia potrebuje heslo k vašej peňaženke na dešifrovanie peňaženky.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Wallet entschlüsseln</translation>
+        <translation>Dešifrovať peňaženku</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Passphrase ändern</translation>
+        <translation>Zmena hesla</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Geben Sie die alte und neue Wallet-Passphrase ein.</translation>
+        <translation>Zadajte staré a nové heslo k peňaženke.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Wallet-Verschlüsselung bestätigen</translation>
+        <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DNET&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre Dash verlieren&lt;/b&gt;!</translation>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje DNET-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
+        <translation>Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Wallet verschlüsselt</translation>
+        <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
         <source>Dash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your darknets from being stolen by malware infecting your computer.</source>
-        <translation>Dash wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer Dash durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <translation>DashCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WICHTIG: Alle vorherigen Wallet-Sicherungen sollten durch die neu erzeugte, verschlüsselte Wallet ersetzt werden. Aus Sicherheitsgründen werden vorherige Sicherungen der unverschlüsselten Wallet nutzlos, sobald Sie die neue, verschlüsselte Wallet verwenden.</translation>
+        <translation>DÔLEŽITÉ: Všetky doterajšie záložné kópie peňaženky ktoré ste zhotovili by mali byť nahradené novým zašifrovaným súborom s peňaženkou. Z bezpečnostných dôvodov sa predchádzajúce kópie nezašifrovanej peňaženky stanú neužitočné keď začnete používať novú zašifrovanú peňaženku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Wallet-Verschlüsselung fehlgeschlagen</translation>
+        <translation>Šifrovanie peňaženky zlyhalo</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Die Wallet-Verschlüsselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Wallet wurde nicht verschlüsselt.</translation>
+        <translation>Šifrovanie peňaženky zlyhalo kôli internej chybe. Vaša peňaženka nebola zašifrovaná.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Die eingegebenen Passphrasen stimmen nicht überein.</translation>
+        <translation>Zadané heslá nesúhlasia.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Wallet-Entsperrung fehlgeschlagen</translation>
+        <translation>Odomykanie peňaženky zlyhalo</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Die eingegebene Passphrase zur Wallet-Entschlüsselung war nicht korrekt.</translation>
+        <translation>Zadané heslo pre dešifrovanie peňaženky bolo nesprávne.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Wallet-Entschlüsselung fehlgeschlagen</translation>
+        <translation>Zlyhalo šifrovanie peňaženky.</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Die Wallet-Passphrase wurde erfolgreich geändert.</translation>
+        <translation>Heslo k peňaženke bolo úspešne zmenené.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Warnung: Die Feststelltaste ist aktiviert!</translation>
+        <translation>Varovanie: Caps Lock je zapnutý</translation>
     </message>
 </context>
 <context>
@@ -236,335 +236,335 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Wallet</translation>
+        <translation>Peňaženka</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Knoten</translation>
+        <translation>Uzol</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Übersicht</translation>
+        <translation>&amp;Prehľad</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Allgemeine Wallet-Übersicht anzeigen</translation>
+        <translation>Zobraziť celkový prehľad o peňaženke</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Überweisen</translation>
+        <translation>&amp;Odoslať</translation>
     </message>
     <message>
         <source>Send coins to a Dash address</source>
-        <translation>Dash an eine Dash-Adresse überweisen</translation>
+        <translation>Poslať mince na Dash adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Empfangen</translation>
+        <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and darknet: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "darknet:"-URIs)</translation>
+        <source>Request payments (generates QR codes and smc-coin: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a Dash: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transaktionen</translation>
+        <translation>&amp;Transakcie</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Transaktionsverlauf durchsehen</translation>
+        <translation>Prechádzať históriu transakcií</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Beenden</translation>
+        <translation>U&amp;končiť</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Anwendung beenden</translation>
+        <translation>Ukončiť program</translation>
     </message>
     <message>
         <source>&amp;About Dash Core</source>
-        <translation>&amp;Über Dash Core</translation>
+        <translation>&amp;O Dash Core</translation>
     </message>
     <message>
         <source>Show information about Dash Core</source>
-        <translation>Informationen über Dash Core anzeigen</translation>
+        <translation>Zobraziť informácie o Dash Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Über &amp;Qt</translation>
+        <translation>O &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Informationen über Qt anzeigen</translation>
+        <translation>Zobrazit informácie o Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Konfiguration...</translation>
+        <translation>&amp;Možnosti...</translation>
     </message>
     <message>
         <source>Modify configuration options for Dash</source>
-        <translation>Die Konfiguration des Clients bearbeiten</translation>
+        <translation>Upraviť možnosti konfigurácie pre Dash</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Anzeigen / Verstecken</translation>
+        <translation>Zobraziť / skryť</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Das Hauptfenster anzeigen oder verstecken</translation>
+        <translation>Zobraziť alebo skryť hlavné okno</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Wallet &amp;verschlüsseln...</translation>
+        <translation>&amp;Zašifrovať Peňaženku...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Verschlüsselt die zu ihrer Wallet gehörenden privaten Schlüssel</translation>
+        <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Wallet &amp;sichern...</translation>
+        <translation>&amp;Backup peňaženku...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Eine Wallet-Sicherungskopie erstellen und abspeichern</translation>
+        <translation>Zálohovať peňaženku na iné miesto</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Passphrase &amp;ändern...</translation>
+        <translation>&amp;Zmena Hesla...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Ändert die Passphrase, die für die Wallet-Verschlüsselung benutzt wird</translation>
+        <translation>Zmeniť heslo použité na šifrovanie peňaženky</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Wallet &amp;entsperren</translation>
+        <translation>&amp;Odomknúť peňaženku</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Wallet entsperren</translation>
+        <translation>Odomknúť peňaženku</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>Wallet &amp;sperren</translation>
+        <translation>&amp;Zamknúť peňaženku</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Nachricht s&amp;ignieren...</translation>
+        <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
         <source>Sign messages with your Dash addresses to prove you own them</source>
-        <translation>Nachrichten signieren, um den Besitz ihrer Dash-Adressen zu beweisen</translation>
+        <translation>Podpísať správy s Vašimi Dash adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Nachricht &amp;verifizieren...</translation>
+        <translation>Overiť správu</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Dash addresses</source>
-        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen Dash-Adressen signiert wurden</translation>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Dash adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
+        <translation>&amp;Informácia</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Diagnoseinformation anzeigen</translation>
+        <translation>Zobraziť diagnostické informácie </translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;Debugkonsole</translation>
+        <translation>&amp;Konzola pre ladenie</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Debugkonsole öffnen</translation>
+        <translation>Otvor konzolu pre ladenie</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;Netzwerkmonitor</translation>
+        <translation>&amp;Kontrola siete</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Netzwerkmonitor anzeigen</translation>
+        <translation>Zobraziť kontrolu siete</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;Gegenstellen-Liste</translation>
+        <translation>&amp;Zoznam partnerských uzlov</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Informationen zu Gegenstellen anzeigen</translation>
+        <translation>Zobraziť informácie o partnerských uzloch</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Wallet-&amp;Reparatur</translation>
+        <translation>Oprava peňaženky</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Optionen zur Wallet-Reparatur anzeigen</translation>
+        <translation>Zobraziť možnosti opravy peňaženky</translation>
     </message>
     <message>
         <source>Open &amp;Configuration File</source>
-        <translation>&amp;Konfigurationsdatei öffnen</translation>
+        <translation>Otvoriť &amp;konfiguračný súbor </translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Konfigurationsdatei öffnen</translation>
+        <translation>Otvoriť konfiguračný súbor </translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Automatische &amp;Sicherheitskopien anzeigen</translation>
+        <translation>Zobraziť automatické &amp;zálohy</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Automatisch erzeugte Wallet-Sicherheitskopien anzeigen</translation>
+        <translation>Zobraziť automaticky vytvorené zálohy peňaženky</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Zahlungsadressen...</translation>
+        <translation>Posielajúca adresa ...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Liste verwendeter Zahlungsadressen und Bezeichnungen anzeigen</translation>
+        <translation>Zobraziť zoznam použitých adries odosielateľa a ich popisy</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Empfangsadressen...</translation>
+        <translation>Prijímajúca adresa...</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Liste verwendeter Empfangsadressen und Bezeichnungen anzeigen</translation>
+        <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>&amp;URI öffnen...</translation>
+        <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a darknet: URI or payment request</source>
-        <translation>Eine "darknet:"-URI oder Zahlungsanforderung öffnen</translation>
+        <source>Open a smc-coin: URI or payment request</source>
+        <translation>Otvoriť smc-coin: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Kommandozeilenoptionen</translation>
+        <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
         <source>Dash Core client</source>
-        <translation>Dash Core Client</translation>
+        <translation>Dash Core klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>%n Block des Transaktionsverlaufs verarbeitet.</numerusform><numerusform>%n Blöcke des Transaktionsverlaufs verarbeitet.</numerusform></translation>
+        <translation><numerusform>Spracovaný %n blok transakčnej histórie.</numerusform><numerusform>Spracované %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronisiere zusätzliche Daten:  %p%</translation>
+        <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
         <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
-        <translation>Zeige den "Dash Core"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
+        <translation>Zobraziť Dash Core nápovedu k získaniu zoznamu možností príkazového riadku Dash.</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Datei</translation>
+        <translation>&amp;Súbor</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Einstellungen</translation>
+        <translation>&amp;Nastavenia</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Werkzeuge</translation>
+        <translation>&amp;Nástroje</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hilfe</translation>
+        <translation>&amp;Pomoc</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Registerkartenleiste</translation>
+        <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Dash network</source>
-        <translation><numerusform>%n aktive Verbindung zum Dash-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Dash-Netzwerk</numerusform></translation>
+        <translation><numerusform>%n aktívne spojenie so sieťou Dash</numerusform><numerusform>%n aktívne spojenia so sieťou Dash</numerusform><numerusform>%n aktívnych spojení so sieťou Dash</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronisiere mit Netzwerk...</translation>
+        <translation>Synchronizácia so sieťou...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Importiere Blöcke von Datenträger...</translation>
+        <translation>Importujem bloky z disku...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindiziere Blöcke auf Datenträger...</translation>
+        <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>Keine Blockquelle verfügbar...</translation>
+        <translation>Nedostupný zdroj blokov...</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Auf aktuellem Stand</translation>
+        <translation>Aktualizovaný</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n Stunde</numerusform><numerusform>%n Stunden</numerusform></translation>
+        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n Tag</numerusform><numerusform>%n Tage</numerusform></translation>
+        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n Woche</numerusform><numerusform>%n Wochen</numerusform></translation>
+        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov </numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 und %2</translation>
+        <translation> %1 a  %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n Jahr</numerusform><numerusform>%n Jahre</numerusform></translation>
+        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 im Rückstand</translation>
+        <translation>%1 pozadu</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Hole auf...</translation>
+        <translation>Sťahujem...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Der letzte empfangene Block ist %1 alt.</translation>
+        <translation>Posledný prijatý blok bol vygenerovaný pred %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaktionen hiernach werden noch nicht angezeigt.</translation>
+        <translation>Transakcie potom nebudú ešte viditeľné.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Fehler</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warnung</translation>
+        <translation>Upozornenie</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Hinweis</translation>
+        <translation>Informácia</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Gesendete Transaktion</translation>
+        <translation>Odoslané transakcie</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Eingehende Transaktion</translation>
+        <translation>Prijaté transakcie</translation>
     </message>
     <message>
         <source>Date: %1
@@ -572,417 +572,417 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Datum: %1
-Betrag: %2
+        <translation>Dátum: %1
+Suma: %2
 Typ: %3
-Adresse: %4</translation>
+Adresa: %4</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell nur zum Anonymisieren &lt;b&gt;entsperrt&lt;/b&gt;</translation>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt; iba pre anonimizáciu</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;gesperrt&lt;/b&gt;</translation>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (DS compatible: %2 / Enabled: %3)</source>
-        <translation>Gesamt: %1 (DS kompatibel: %2 / Aktiviert: %3)</translation>
+        <translation>Celkovo: %1 (Kompatibilné z DS: %2 / Zapnuté: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Netzwerkalarm</translation>
+        <translation>Výstraha siete</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Anzahl:</translation>
+        <translation>Množstvo:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Byte:</translation>
+        <translation>Bajtov:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Betrag:</translation>
+        <translation>Suma:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Priorität:</translation>
+        <translation>Priorita:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Gebühr:</translation>
+        <translation>Poplatok:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>"Coin Control"-Auswahl</translation>
+        <translation>Výber mince</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>"Dust"</translation>
+        <translation>Prach:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Abzüglich Gebühr:</translation>
+        <translation>Po poplatku:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wechselgeld:</translation>
+        <translation>Zmena:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Alles (de)selektieren</translation>
+        <translation>(ne)vybrať všetko</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Baumansicht</translation>
+        <translation>Stromový režim</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Listenansicht</translation>
+        <translation>Zoznamový režim</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 gesperrt)</translation>
+        <translation>(1 zamknutý)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Betrag</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Empfangen über Bezeichner</translation>
+        <translation>Prijaté s označením</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Empfangen über Adresse</translation>
+        <translation>Prijaté s adresou</translation>
     </message>
     <message>
         <source>DS Rounds</source>
-        <translation>DS Runden</translation>
+        <translation>Kôl DS</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Bestätigungen</translation>
+        <translation>Potvrdenia</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bestätigt</translation>
+        <translation>Potvrdené</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Priorität</translation>
+        <translation>Priorita</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Adresse kopieren</translation>
+        <translation>Kopírovať adresu</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
+        <translation>Kopírovať popis</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
+        <translation>Kopírovať sumu</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Transaktions-ID kopieren</translation>
+        <translation>Kopírovať ID transakcie</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Nicht ausgegebenen Betrag sperren</translation>
+        <translation>Uzamknúť neminuté</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Nicht ausgegebenen Betrag entsperren</translation>
+        <translation>Odomknúť neminuté</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Anzahl kopieren</translation>
+        <translation>Kopírovať množstvo</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Gebühr kopieren</translation>
+        <translation>Kopírovať poplatok</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Abzüglich Gebühr kopieren</translation>
+        <translation>Kopírovať za poplatok</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Byte kopieren</translation>
+        <translation>Kopírovať bajty</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Priorität kopieren</translation>
+        <translation>Kopírovať prioritu</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>"Dust" Betrag kopieren</translation>
+        <translation>Kopírovať prach</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Wechselgeld kopieren</translation>
+        <translation>Kopírovať zmenu</translation>
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;Obfuscate will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscate, please deselect all non-nonymized inputs first and then check Obfuscate checkbox again.</source>
-        <translation>Nicht-anonymisierter Input ausgewählt. &lt;b&gt;Obfuscate wird deaktiviert.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Sollten Sie trotzdem Obfuscate verwenden wollen, müssen Sie zuerst alle nicht-anonymisierten Inputs entmarkieren und  das Ankreuzfeld "Obfuscate" erneut auswählen.</translation>
+        <translation>Vybratý ne-anonymizovaný vstup. &lt;b&gt;Obfuscate bude vypnutý.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ak si stále želáte použiť Obfuscate, najskôr odznačte všetky e-anonymizované vstup a potom znova zaškrtnite Obfuscate začiarkavacie políčko.</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>am höchsten</translation>
+        <translation>najvyššie</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation>höher</translation>
+        <translation>vyššie</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>hoch</translation>
+        <translation>vysoké</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>mittel-hoch</translation>
+        <translation>stredne vysoké</translation>
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Kann um +/- %1 duff(s) pro Eingabe variieren.</translation>
+        <translation>Môže sa pohybovať +/- %1 duff(y) pre vstup.</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>k.A.</translation>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>mittel</translation>
+        <translation>stredné</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>niedrig-mittel</translation>
+        <translation>stredne nízke</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>niedrig</translation>
+        <translation>nízke</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>niedriger</translation>
+        <translation>nižšie</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>am niedrigsten</translation>
+        <translation>najnižšie</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 gesperrt)</translation>
+        <translation>(%1 zamknutých)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>keine</translation>
+        <translation>žiadne</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>ja</translation>
+        <translation>áno</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nein</translation>
+        <translation>nie</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Diese Bezeichnung wird rot, wenn die Transaktion größer als 1000 Byte ist.</translation>
+        <translation>Tento popis zčervená ak veľkosť transakcie presiahne 1000 bytov.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Das bedeutet, dass eine Gebühr von mindestens %1 pro kB erforderlich ist.</translation>
+        <translation>To znamená že požadovaný poplatok je aspoň  %1  za kB.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Kann um +/- 1 Byte pro Eingabe variieren.</translation>
+        <translation>Môže sa pohybovať +/- 1 bajt pre vstup.</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transaktionen mit höherer Priorität haben eine größere Chance in einen Block aufgenommen zu werden.</translation>
+        <translation>Transakcie s vysokou prioritou sa pravdepodobnejsie dostanú do bloku.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Diese Bezeichnung wird rot, wenn die Priorität niedriger als "mittel" ist.</translation>
+        <translation>Tento popis zčervenie ak je priorita nižčia ako "medium".</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Diese Bezeichnung wird rot, wenn irgendein Empfänger einen Betrag kleiner als %1 erhält.</translation>
+        <translation>Tento popis zčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako %1.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <translation>(bez popisu)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>Wechselgeld von %1 (%2)</translation>
+        <translation>zmena od %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(Wechselgeld)</translation>
+        <translation>(zmena)</translation>
     </message>
 </context>
 <context>
     <name>ObfuscateConfig</name>
     <message>
         <source>Configure Obfuscate</source>
-        <translation>Obfuscate konfigurieren</translation>
+        <translation>Konfigurovať Obfuscate</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>Einfacher Datenschutz</translation>
+        <translation>Základné súkromie</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>Hoher Datenschutz</translation>
+        <translation>Vysoké súkromie</translation>
     </message>
     <message>
         <source>Maximum Privacy</source>
-        <translation>Maximaler Datenschutz</translation>
+        <translation>Maximálne súkromie</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>Bitten wählen Sie eine Datenschutz-Stufe.</translation>
+        <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>Benutze 2 separate Masternodes um bis zu 1000 DNET zu mixen</translation>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 DNET</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>Benutze 8 separate Masternodes um bis zu 1000 DNET zu mixen</translation>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 DNET</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Benutze 16 separate Masternodes</translation>
+        <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 DNET to anonymize 1000 DNET</source>
-        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 DNET, um 1000 DNET zu anonymisieren</translation>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 DNET pre anonimizáciu 1000 DNET</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 DNET to anonymize 1000 DNET</source>
-        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 DNET, um 1000 DNET zu anonymisieren</translation>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 DNET pre anonimizáciu 1000 DNET</translation>
     </message>
     <message>
         <source>0.1 DNET per 1000 DNET you anonymize.</source>
-        <translation>0,1 DNET pro 1000 zu anonymisierende Dash.</translation>
+        <translation>0.1 DNET za 1000 DNET ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Dies ist die langsamste und sicherste Option. Maximale Anonymität kostet</translation>
+        <translation>Toto je najpomalšia a najviac bezpečná možnosť. Použitie maximálnej anonymity bude stáť</translation>
     </message>
     <message>
         <source>Obfuscate Configuration</source>
-        <translation>Obfuscate-Konfiguration</translation>
+        <translation>Konfigurácia Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>Obfuscate wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Dash ändern.</translation>
+        <translation>Obfuscate bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>Obfuscate wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Dash ändern.</translation>
+        <translation>Obfuscate bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>Obfuscate wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Dash ändern.</translation>
+        <translation>Obfuscate bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Adresse bearbeiten</translation>
+        <translation>Upraviť adresu</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Bezeichnung</translation>
+        <translation>&amp;Popis</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Bezeichnung, die dem Adresslisteneintrag zugeordnet ist.</translation>
+        <translation>Popis tejto položký v zozname adries je prázdny</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Adresse</translation>
+        <translation>&amp;Adresa</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Adresse, die dem Adresslisteneintrag zugeordnet ist. Diese kann nur bei Zahlungsadressen verändert werden.</translation>
+        <translation>Adresa spojená s týmto záznamom v adresári. Možno upravovať len pre odosielajúce adresy.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Neue Empfangsadresse</translation>
+        <translation>Nová adresa pre prijímanie</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Neue Zahlungsadresse</translation>
+        <translation>Nová adresa pre odoslanie</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Empfangsadresse bearbeiten</translation>
+        <translation>Upraviť prijímacie adresy</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Zahlungsadresse bearbeiten</translation>
+        <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Dash address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige Dash-Adresse.</translation>
+        <translation>Zadaná adresa "%1" nie je platná Dash adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Die eingegebene Adresse "%1" befindet sich bereits im Adressbuch.</translation>
+        <translation>Vložená adresa "%1" sa už nachádza v adresári.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Wallet konnte nicht entsperrt werden.</translation>
+        <translation>Nepodarilo sa odomknúť peňaženku.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Erzeugung eines neuen Schlüssels fehlgeschlagen.</translation>
+        <translation>Generovanie nového kľúča zlyhalo.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Es wird ein neues Datenverzeichnis angelegt.</translation>
+        <translation>Bude vytvorený nový dátový adresár.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>Name</translation>
+        <translation>názov</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Verzeichnis existiert bereits. Fügen Sie %1 an, wenn Sie beabsichtigen hier ein neues Verzeichnis anzulegen.</translation>
+        <translation>Priečinok už existuje. Pridajte "%1" ak chcete vytvoriť nový priečinok tu.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Pfad existiert bereits und ist kein Verzeichnis.</translation>
+        <translation>Cesta už existuje a nie je to adresár.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Datenverzeichnis kann hier nicht angelegt werden.</translation>
+        <translation>Tu nemôžem vytvoriť dátový adresár.</translation>
     </message>
 </context>
 <context>
@@ -993,78 +993,78 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>version</source>
-        <translation>Version</translation>
+        <translation>verzia</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-Bit)</translation>
+        <translation>(%1-bit)</translation>
     </message>
     <message>
         <source>About Dash Core</source>
-        <translation>Über Dash Core</translation>
+        <translation>O Dash Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Kommandozeilenoptionen</translation>
+        <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Benutzung:</translation>
+        <translation>Použitie:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>Kommandozeilenoptionen</translation>
+        <translation>voľby príkazového riadku</translation>
     </message>
     <message>
         <source>UI options</source>
-        <translation>UI-Optionen</translation>
+        <translation>UI možnosti</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: 0)</source>
-        <translation>Datenverzeichnis beim Starten auswählen (Standard: 0)</translation>
+        <translation>Zvoľte dátový priečinok pri štarte (prednastavené: 0)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Sprache festlegen, z.B. "de_DE" (Standard: Systemstandard)</translation>
+        <translation>Nastaviť jazyk, napríklad "sk_SK" (predvolené: systémový)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Minimiert starten</translation>
+        <translation>Spustiť minimalizované</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>SSL-Wurzelzertifikate für Zahlungsanforderungen festlegen (Standard: Systemstandard)</translation>
+        <translation>Nastaviť koreňový certifikát pre výzvy na platbu (prednastavené: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Startbildschirm beim Starten anzeigen (Standard: 1)</translation>
+        <translation>Zobraziť splash screen pri spustení (predvolené: 1)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Willkommen</translation>
+        <translation>Vitajte</translation>
     </message>
     <message>
         <source>Welcome to Dash Core.</source>
-        <translation>Willkommen zu Dash Core.</translation>
+        <translation>Vitajte v Dash Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie Dash Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Dash Core ukladať svoje dáta.</translation>
     </message>
     <message>
         <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dash Core wird jetzt die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Das Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <translation>Dash Core stiahne a uloží kópiu reťazca blokov Dash. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Standard-Datenverzeichnis verwenden</translation>
+        <translation>Použiť predvolený dátový adresár</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
+        <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
         <source>Dash Core</source>
@@ -1072,30 +1072,30 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Fehler: Angegebenes Datenverzeichnis "%1" kann nicht angelegt werden.</translation>
+        <translation>Chyba: Zadaný priečinok pre dáta "%1" nemôže byt vytvorený.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Fehler</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB freier Speicherplatz verfügbar</translation>
+        <translation>%1 GB dostupného voľného miesta</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(von benötigten %1 GB)</translation>
+        <translation>(z potrebných %1GB)</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>URI öffnen</translation>
+        <translation>Otvoriť URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Zahlungsanforderung über URI oder aus Datei öffnen</translation>
+        <translation>Otvoriť požiadavku na zaplatenie z URI alebo súboru</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1103,34 +1103,34 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Zahlungsanforderungsdatei auswählen</translation>
+        <translation>Vyberte súbor s výzvou k platbe</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Zu öffnende Zahlungsanforderungsdatei auswählen</translation>
+        <translation>Vyberte ktorý súbor s výzvou k platbe otvoriť</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Konfiguration</translation>
+        <translation>Možnosti</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Allgemein</translation>
+        <translation>&amp;Hlavné</translation>
     </message>
     <message>
         <source>Automatically start Dash after logging in to the system.</source>
-        <translation>Dash nach der Anmeldung am System automatisch starten.</translation>
+        <translation>Automaticky spustiť Dash po prihlásení do systému.</translation>
     </message>
     <message>
         <source>&amp;Start Dash on system login</source>
-        <translation>&amp;Starte Dash automatisch nach Systemanmeldung</translation>
+        <translation>&amp;Spusť Dash po prihlásení do systému</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Größe des &amp;Datenbankcaches</translation>
+        <translation>Veľkosť vyrovnávacej pamäti databázy</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1138,87 +1138,87 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Anzahl an Skript-&amp;Verifizierungs-Threads</translation>
+        <translation>Počet skript overujucich vlákien</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = automatisch, &lt;0 = so viele Kerne frei lassen)</translation>
+        <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
     </message>
     <message>
         <source>Obfuscate rounds to use</source>
-        <translation>Obfuscate Runden</translation>
+        <translation>Použiť kôl Obfuscate</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off Obfuscate once it's reached.</source>
-        <translation>Beim Erreichen dieses Betrages wird Obfuscate ausgeschaltet.</translation>
+        <translation>Táto suma slúži ako hranica pre vypnutie Obfuscate akonáhle je dosiahnutá</translation>
     </message>
     <message>
         <source>Amount of Dash to keep anonymized</source>
-        <translation>Anzahl anonymisierter Dash</translation>
+        <translation>Suma Dash ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>W&amp;allet</translation>
+        <translation>Peňaženka</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Wenn Sie das Ausgeben von unbestätigtem Wechselgeld deaktivieren, kann das Wechselgeld einer &lt;br/&gt; Transaktion nicht verwendet werden, bis es mindestens eine Bestätigung erhalten hat.&lt;br/&gt;Dies wirkt sich auf die Berechnung des Kontostands aus.</translation>
+        <translation>Ak vypnete míňanie nepotvrdeného výdavku tak výdavok z transakcie &lt;br&gt;bude možné použiť až keď daná transakcia bude mať aspoň jedno potvrdenie.&lt;br/&gt; Toto má vplyv aj na výpočet vášho zostatku.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Eingehende Verbindungen annehmen</translation>
+        <translation>Akceptovať pripojenie z vonku</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Eingehende Verbindungen erlauben</translation>
+        <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
         <source>Connect to the Dash network through a SOCKS5 proxy.</source>
-        <translation>Über einen SOCKS5-Proxy mit dem Dash-Netzwerk verbinden.</translation>
+        <translation>Pripojiť sa do siete Dash cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>Über einen SOCKS5-Proxy &amp;verbinden (Standardproxy):</translation>
+        <translation>&amp;Pripojiť sa cez SOCKS5 proxy (predvolené proxy):</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Erweiterte Wallet-Optionen</translation>
+        <translation>Expert</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Diese Einstellung setzt fest, durch wie viele Masternodes ein Input anonymisiert wird. &lt;br/&gt; Eine höhere Anzahl bedeutet höhere Anonymität, verursacht allerdings auch höhere Gebühren.</translation>
+        <translation>Toto nastavenie určuje množstvo rozličných masternode cez ktoré sa bude anonymizovať vstup.&lt;br/&gt; Viac kôl anonymizácie dáva väčšiu úroveň súkromia, ale tiež stojí viac na poplatkoch.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Legt fest, ob die "Coin Control"-Funktionen angezeigt werden.</translation>
+        <translation>Či zobrazovať možnosti "Coin control" alebo nie.</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>"&amp;Coin Control"-Funktionen aktivieren</translation>
+        <translation>Povoliť možnosti coin control</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Unbestätigtes Wechselgeld darf ausgegeben werden</translation>
+        <translation>Minúť nepotvrdený výdavok</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Netzwerk</translation>
+        <translation>Sieť</translation>
     </message>
     <message>
         <source>Automatically open the Dash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den Dash-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
+        <translation>Automaticky otvoriť na smerovači port pre Dash klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Portweiterleitung via &amp;UPnP</translation>
+        <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy-&amp;IP:</translation>
+        <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP-Adresse des Proxies (z.B. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP adresy proxy (napr. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -1226,81 +1226,81 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port des Proxies (z.B. 9050)</translation>
+        <translation>Port proxy (napr. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Programmfenster</translation>
+        <translation>Okno</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Nur ein Symbol im Infobereich anzeigen, nachdem das Programmfenster minimiert wurde.</translation>
+        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>In den Infobereich anstatt in die Taskleiste &amp;minimieren</translation>
+        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimiert die Anwendung anstatt sie zu beenden wenn das Fenster geschlossen wird. Wenn dies aktiviert ist, müssen Sie das Programm über "Beenden" im Menü schließen.</translation>
+        <translation>Minimalizovat namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>Beim Schließen m&amp;inimieren</translation>
+        <translation>M&amp;inimalizovať pri zavretí</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>Anzei&amp;ge</translation>
+        <translation>&amp;Displej</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Sprache der Benutzeroberfläche:</translation>
+        <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Dash.</source>
-        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von Dash aktiv.</translation>
+        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní Dash.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/darknet/</source>
-        <translation>Fehlt eine Sprache oder ist unvollständig übersetzt? Hier können Sie helfen:
-https://www.transifex.com/projects/p/darknet/</translation>
+https://www.transifex.com/projects/p/smc-coin/</source>
+        <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
+https://www.transifex.com/projects/p/smc-coin/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Design/Thema der Benutzeroberfläche:</translation>
+        <translation>Motív užívateľského rozhrania:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Einheit der Beträge:</translation>
+        <translation>&amp;Zobrazovať hodnoty v jednotkách:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von Dash angezeigt werden soll.</translation>
+        <translation>Zvoľte ako deliť bitcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Dezimalziffern</translation>
+        <translation>Decimálne čísla</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Externe URLs (z.B. ein Block-Explorer), die im Kontextmenü des Transaktionsverlaufs eingefügt werden. In der URL wird %s durch den Transaktionshash ersetzt. Bei Angabe mehrerer URLs müssen diese durch "|" voneinander getrennt werden.</translation>
+        <translation>URL tretích strán (napr. prehliadač blockchain) ktoré sa zobrazujú v záložke transakcií ako položky kontextového menu. %s v URL je nahradené hash-om transakcie. Viaceré URL sú oddelené zvislou čiarou |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Externe Transaktions-URLs</translation>
+        <translation>URL transakcií s tretími stranami</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktive Kommandozeilenoptionen, die obige Konfiguration überschreiben:</translation>
+        <translation>Aktévne možnosti príkazového riadku ktoré prepíšu možnosti vyššie:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Setzt die Clientkonfiguration auf Standardwerte zurück.</translation>
+        <translation>Vynulovať všetky voľby klienta na predvolené.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Konfiguration &amp;zurücksetzen</translation>
+        <translation>Vynulovať voľby</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1308,138 +1308,138 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>A&amp;bbrechen</translation>
+        <translation>Zrušiť</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>Standard</translation>
+        <translation>predvolené</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>keine</translation>
+        <translation>žiadne</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Zurücksetzen der Konfiguration bestätigen</translation>
+        <translation>Potvrdiť obnovenie možností</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Clientneustart nötig, um die Änderungen zu aktivieren.</translation>
+        <translation>Reštart klienta potrebný pre aktivovanie zmien.</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Client wird beendet, wollen Sie fortfahren?</translation>
+        <translation>Klient bude vypnutý, chcete pokračovať?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Diese Änderung würde einen Clientneustart benötigen.</translation>
+        <translation>Táto zmena by vyžadovala reštart klienta.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Die eingegebene Proxyadresse ist ungültig.</translation>
+        <translation>Zadaná proxy adresa je neplatná.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>Forma</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Wallet wird automatisch synchronisiert, nachdem eine Verbindung zum Dash-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Dash akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Verfügbar:</translation>
+        <translation>Disponibilné:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Ihr aktuell verfügbarer Kontostand</translation>
+        <translation>Váš aktuálny disponibilný zostatok</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Ausstehend:</translation>
+        <translation>Čakajúce potvrdenie</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Betrag aus unbestätigten Transaktionen, der noch nicht im aktuell verfügbaren Kontostand enthalten ist</translation>
+        <translation>Suma transakcií ktoré ešte neboli potvrdené a ešte sa nepočítajú do disponibilného zostatku</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Unreif:</translation>
+        <translation>Nezrelé:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Erarbeiteter Betrag der noch nicht gereift ist</translation>
+        <translation>Vytvorený zostatok ktorý ešte nedosiahol zrelosť</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Kontostände</translation>
+        <translation>Zostatky</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Unbestätigte Transaktionen  zu beobachteten Adressen</translation>
+        <translation>Nepotvrdené transakcie pre adresy ktoré sa iba sledujú</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Erarbeiteter Betrag der beobachteten Adressen der noch nicht gereift ist</translation>
+        <translation>Vyťažená suma pre adresy ktoré sa iba sledujú ale ešte nie je dozretá</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Gesamtbetrag:</translation>
+        <translation>Celkovo:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Aktueller Gesamtbetrag aus obigen Kategorien</translation>
+        <translation>Váš súčasný celkový zostatok</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Kontostand der beobachteten Adressen</translation>
+        <translation>Aktuálny celkový zostatok pre adries ktoré sa iba sledujú</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Beobachtet:</translation>
+        <translation>Iba sledované:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Aktueller Kontostand der beobachteten Adressen</translation>
+        <translation>Váš celkový zostatok pre adresy ktoré sa iba sledujú</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Verfügbar:</translation>
+        <translation>Použiteľné:</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>Status:</translation>
+        <translation>Stav:</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
-        <translation>Aktiviert/Deaktiviert</translation>
+        <translation>Zapnuté/Vypnuté</translation>
     </message>
     <message>
         <source>Completion:</source>
-        <translation>Vollendet:</translation>
+        <translation>Dokončenie:</translation>
     </message>
     <message>
         <source>Obfuscate Balance:</source>
-        <translation>Obfuscate Kontostand:</translation>
+        <translation>Bilancia Obfuscate:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
-        <translation>Betrag und Runden:</translation>
+        <translation>Čiastka a kolá:</translation>
     </message>
     <message>
         <source>0 DNET / 0 Rounds</source>
-        <translation>0 DNET / 0 Runden</translation>
+        <translation>0 DNET / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
-        <translation>Stückelung des Betrages:</translation>
+        <translation>Odoslaná denominácia:</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>k.A.</translation>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>Obfuscate</source>
@@ -1447,540 +1447,540 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Letzte Transaktionen</translation>
+        <translation>Nedávne transakcie</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>Starte/Stoppe das Mixen</translation>
+        <translation>Začať/Zastaviť miešanie</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Die gestückelten Beträge, die Sie zu dem Masternode gesendet haben.&lt;br&gt; Zum Erfolgreichen Mixen müssen andere Benutzer exakt gleich gestückelte Beträge senden.</translation>
+        <translation>Denominácie ktoré ste odoslali na Masternode. &lt;br&gt;Pre miešanie, ostatný používatelia musia odoslať rovnakú sumu denominácií.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
-        <translation>(Letzte Nachricht)</translation>
+        <translation>(Posledná správa)</translation>
     </message>
     <message>
         <source>Try to manually submit a Obfuscate request.</source>
-        <translation>Versuche eine Obfuscateanfrage manuell abzusetzen.</translation>
+        <translation>Skúsiť manuálne odoslať Obfuscate požiadavku.</translation>
     </message>
     <message>
         <source>Try Mix</source>
-        <translation>Versuche zu Mixen</translation>
+        <translation>Výskúšať mix</translation>
     </message>
     <message>
         <source>Reset the current status of Obfuscate (can interrupt Obfuscate if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Aktuellen Obfuscate Status zurücksetzen (wenn der Prozess des Mixens bereits begonnen hat kann es passieren, dass Obfuscate unterbrochen wird. Bereits gezahlte Gebühren werden einbehalten!) </translation>
+        <translation>Vynulovať súčasný stav Obfuscate (môže prerušiť Obfuscate ak je v procese miešania, čo Vás môže stáť peniaze!)</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Zurücksetzen</translation>
+        <translation>Resetovať</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>nicht synchron</translation>
+        <translation>nesynchronizované</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Deaktiviert</translation>
+        <translation>Vypnuté</translation>
     </message>
     <message>
         <source>Start Obfuscate Mixing</source>
-        <translation>Starte Obfuscate Mixen</translation>
+        <translation>Začať Dasksend miešanie</translation>
     </message>
     <message>
         <source>Stop Obfuscate Mixing</source>
-        <translation>Stoppe Obfuscate Mixen</translation>
+        <translation>Zastaviť Dasksend miešanie</translation>
     </message>
     <message>
         <source>No inputs detected</source>
-        <translation>Keine Inputs gefunden</translation>
+        <translation>Žiadne detekované vstupy</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n Runde</numerusform><numerusform>%n Runden</numerusform></translation>
+        <translation><numerusform>%n kolo</numerusform><numerusform>%n kolá</numerusform><numerusform>%n kôl</numerusform></translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Nicht genug kompatible Inputs zum Anonymisieren von &lt;span style='color:red;'&gt;%1&lt;/span&gt; gefunden,&lt;br/&gt;&lt;span style='color:red;'&gt;%2&lt;/span&gt; wird stattdessen anonymisiert</translation>
+        <translation>Nedostatok kompatibilných vstupov na anonymizáciu &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;bude anonymizovaných &lt;span style='color:red;'&gt;%2&lt;/span&gt;</translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation>Fortschritt</translation>
+        <translation>Celkový progres</translation>
     </message>
     <message>
         <source>Denominated</source>
-        <translation>Gestückelt</translation>
+        <translation>Denominované </translation>
     </message>
     <message>
         <source>Anonymized</source>
-        <translation>Anonymisiert</translation>
+        <translation>Anonymizované</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Gestückelte Inputs haben im Durchschnitt %5 von %n Runde</numerusform><numerusform>Gestückelte Inputs haben im Durchschnitt %5 von %n Runden</numerusform></translation>
+        <translation><numerusform>Denominované vstupy majú v priemere %5 z %n kola</numerusform><numerusform>Denominované vstupy majú v priemere %5 z %n kôl</numerusform><numerusform>Denominované vstupy majú v priemere %5 z %n kôl</numerusform></translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Genug kompatible Inputs zum Anonymisieren von %1 gefunden</translation>
+        <translation>Nájdený dostatok kompatibilných vstupov na anonymizáciu %1</translation>
     </message>
     <message>
         <source>Mixed</source>
-        <translation>Gemixt</translation>
+        <translation>Zmiešané</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Aktiviert</translation>
+        <translation>Povolené </translation>
     </message>
     <message>
         <source>Last Obfuscate message:
 </source>
-        <translation>Letzter Obfuscate Status:
+        <translation>Posledná Obfuscate správa:
 </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>k.A.</translation>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>Obfuscate was successfully reset.</source>
-        <translation>Obfuscate wurde erfolgreich zurückgesetzt.</translation>
+        <translation>Obfuscate bol úspešne obnovený</translation>
     </message>
     <message>
         <source>If you don't want to see internal Obfuscate fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Wenn Sie keine internen Obfuscate-Gebühren oder -Transaktionen sehen wollen wählen Sie "Gängigste" als Typ auf der "Transaktionen" Karteikarte.</translation>
+        <translation>Ak nechcete vidieť interné Obfuscate poplatky/transakcie, vyberte "Najčastejšie" ako typ na záložke "Transakcie".</translation>
     </message>
     <message>
         <source>Obfuscate requires at least %1 to use.</source>
-        <translation>Zur Benutzung von Obfuscate benötigt man mindestens %1</translation>
+        <translation>Pre použitie vyžaduje Obfuscate aspoň %1.</translation>
     </message>
     <message>
         <source>Wallet is locked and user declined to unlock. Disabling Obfuscate.</source>
-        <translation>Das Wallet ist gesperrt und der Benutzer hat abgelehnt, es zu entsperren. Obfuscate wird deaktiviert.</translation>
+        <translation>Peňaženka je zamknutá a používateľ ju odmietol odomknúť. Vypínam Obfuscate.</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Fehlerhafte Zahlungsanforderung</translation>
+        <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start darknet: click-to-pay handler</source>
-        <translation>Dash kann nicht gestartet werden: click-to-pay handler</translation>
+        <source>Cannot start smc-coin: click-to-pay handler</source>
+        <translation>Dash sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI-Verarbeitung</translation>
+        <translation>Spracovanie URI</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Abruf-URL der Zahlungsanforderung ist ungültig: %1</translation>
+        <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Zahlungsanforderungsdatei-Verarbeitung</translation>
+        <translation>Obsluha súboru s požiadavkou na platbu</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Ungültige Zahlungsadresse %1</translation>
+        <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
-        <translation>URI konnte nicht erfolgreich verarbeitet werden. Höchstwahrscheinlich ist dies entweder keine gültige Dash-Adresse oder die URI-Parameter sind falsch gesetzt. </translation>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Dash adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Zahlungsanforderungsdatei kann nicht gelesen werden! Dies kann durch eine ungültige Zahlungsanforderungsdatei verursacht werden.</translation>
+        <translation>Súbor s požiadavkou na platbu sa nedá prečítať! Môže to byť spôsobené neplatným súborom s požiadavkou.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Zahlungsanforderung abgelehnt</translation>
+        <translation>Požiadavka na platbu zamietnutá</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Netzwerk der Zahlungsanforderung passt nicht zum Client-Netzwerk.</translation>
+        <translation>Sieť požiadavky na platbu sa nezhoduje s klientovou sieťou</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>Zahlungsanforderung ist abgelaufen</translation>
+        <translation>Požiadavka na platbu vypršala.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Zahlungsanforderung ist nicht initialisiert.</translation>
+        <translation>Požiadavka na platbu nie je inicializovaná.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Unverifizierte Zahlungsanforderungen an benutzerdefinierte Zahlungsskripte werden nicht unterstützt.</translation>
+        <translation>Program nepodporuje neoverené platobné výzvy na vlastná skripty.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Angeforderter Zahlungsbetrag in Höhe von %1 ist zu niedrig und wurde als "Dust" eingestuft.</translation>
+        <translation>Požadovaná platba sumy  %1 je príliš malá (považovaná za prach).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Rücküberweisung von %1</translation>
+        <translation>Vrátenie z  %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Zahlungsanforderung %1 ist zu groß (%2 Bytes, erlaubt sind %3 Bytes).</translation>
+        <translation>Požiadavka na platbu %1 je príliš veľká (%2 bytov, dovolených %3 bytov).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>Überlastungs-Schutz Zahlungsanforderung</translation>
+        <translation>DoS ochrana požiadavky na platbu</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Kommunikationsfehler mit %1: %2</translation>
+        <translation>Chyba komunikácie s %1: %2 </translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Zahlungsanforderung kann nicht analysiert werden!</translation>
+        <translation>Požiadavka na platbu sa nedá analyzovať!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Fehlerhafte Antwort vom Server: %1</translation>
+        <translation>Zlá odpoveď zo servera %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>fehlerhafte Netzwerkanfrage</translation>
+        <translation>Chyba požiadavky siete</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Zahlung bestätigt</translation>
+        <translation>Platba potvrdená</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>Adresse/Rechnername</translation>
+        <translation>Adresa/Názov hostiteľa</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Benutzerprogramm</translation>
+        <translation>Agent používateľa</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping-Antwort-Zeit</translation>
+        <translation>Doba odozvy</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Betrag</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>Enter a Dash address (e.g. %1)</source>
-        <translation>Dash-Adresse eingeben (z.B. %1)</translation>
+        <translation>Zadajte Dash adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 T</translation>
+        <translation>%1 d</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 St.</translation>
+        <translation>%1 h</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 Min.</translation>
+        <translation>%1 m</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1  S</translation>
+        <translation>%1 s</translation>
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>NETZWERK</translation>
+        <translation>SIEŤ</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>UNBEKANNT</translation>
+        <translation>NEZNÁME</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>Žiadne</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>k.A.</translation>
+        <translation>Nie je k dispozícii</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 Ms</translation>
+        <translation>%1 ms</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Grafik &amp;speichern...</translation>
+        <translation>Uložiť obrázok...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>Grafik &amp;kopieren</translation>
+        <translation>Kopírovať obrázok</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>QR-Code speichern</translation>
+        <translation>Ukladanie QR kódu</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG-Grafik (*.png)</translation>
+        <translation>PNG obrázok (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Werkzeuge</translation>
+        <translation>Okno nástrojov</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
+        <translation>&amp;Informácia</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Všeobecné</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Názov</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>Clientname</translation>
+        <translation>Meno klienta</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>k.A.</translation>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Anzahl Verbindungen</translation>
+        <translation>Počet pripojení</translation>
     </message>
     <message>
         <source>Open the Dash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffnet die Dash-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <translation>Otvoriť denník ladenia Dash zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Öffnen</translation>
+        <translation>&amp;Otvoriť</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Startzeit</translation>
+        <translation>Čas spustenia</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Netzwerk</translation>
+        <translation>Sieť</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Letzte Blockzeit</translation>
+        <translation>Čas posledného bloku</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debugprotokolldatei</translation>
+        <translation>Súbor záznamu ladenia</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>Verwendete OpenSSL-Version</translation>
+        <translation>Používa OpenSSL verziu</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Erstellungsdatum</translation>
+        <translation>Dátum zostavenia</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Aktuelle Anzahl Blöcke</translation>
+        <translation>Aktuálny počet blokov</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Clientversion</translation>
+        <translation>Verzia klienta</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Verwendete BerkeleyDB-Version</translation>
+        <translation>Používa BerkeleyDB verziu</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Blockkette</translation>
+        <translation>Reťazec blokov</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Anzahl Masternodes</translation>
+        <translation>Počet Mastenode</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Konsole</translation>
+        <translation>&amp;Konzola</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Konsole zurücksetzen</translation>
+        <translation>Vymazať konzolu</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Netzwerkauslastung</translation>
+        <translation>Sieťová prevádzka</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Zurücksetzen</translation>
+        <translation>&amp;Vyčistiť</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Summen</translation>
+        <translation>Celkovo</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Empfangen</translation>
+        <translation>Prijaté</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Überwiesen</translation>
+        <translation>Odoslané</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Gegenstellen</translation>
+        <translation>&amp;Partnerské uzly</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Gegenstelle auswählen, um Detailinformationen zu sehen.</translation>
+        <translation>Pre detailné informácie vyberte partnerský uzol.</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Richtung</translation>
+        <translation>Smer</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>Verzia</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Benutzerprogramm</translation>
+        <translation>Agent používateľa</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Dienste</translation>
+        <translation>Služby</translation>
     </message>
     <message>
         <source>Starting Height</source>
-        <translation>Ausgangs-Blocknummer</translation>
+        <translation>Počiatočná výška</translation>
     </message>
     <message>
         <source>Sync Height</source>
-        <translation>Synchronisierte Blocknummer</translation>
+        <translation>Synchronizačná výška</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Ausschluss-Punktzahl</translation>
+        <translation>Skóre zákazu</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Verbindungszeit</translation>
+        <translation>Čas pripojenia</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Letzte Überweisung</translation>
+        <translation>Posledné poslané</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Letzter Empfang</translation>
+        <translation>Posledné prijaté</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>Bytes gesendet:</translation>
+        <translation>Odoslaných bajtov</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>Bytes empfangen</translation>
+        <translation>Prijatých bajtov</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping-Antwort-Zeit</translation>
+        <translation>Doba odozvy</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Wallet-Reparatur</translation>
+        <translation>&amp;Oprava peňaženky</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Wallet Datenwiederherstellungen</translation>
+        <translation>Záchranná peňaženka</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Dateien der Blockkette erneut durchsuchen</translation>
+        <translation>Znova prehľadať reťazec blokov</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Transaktion wiederherstellen 1</translation>
+        <translation>Znova prehľadať transakcie 1</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Transaktion wiederherstellen 2</translation>
+        <translation>Znova prehľadať transakcie 2</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Wallet-Format aktualisieren</translation>
+        <translation>Inovovať formát peňaženky</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Diese Buttons starten die Wallet mit Kommandozeilen-Parametern zur Reparatur von etwaigen  Fehlern.</translation>
+        <translation>Tlačidlá nižšie reštartujú peňaženku s príkazmi na opravu peňaženky, opravia chyby s poškodenými súbormi reťazca blokov, alebo chýbajúce či zastarané transakcie.</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: versucht private Schlüssel aus einer beschädigten wallet.dat wiederherzustellen</translation>
+        <translation>-salvagewallet: Pokus obnoviť súkromné kľúče z poškodeného wallet.dat.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-rescan: Blockkette erneut nach fehlenden Wallet-Transaktionen durchsuchen</translation>
+        <translation>-rescan: Znova prehľadať reťazec blokov pre nájdenie chýbajúcich transakcií peňaženky.</translation>
     </message>
     <message>
         <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: Transaktion wiederherstellen (Metadaten, z.B. Kontoinhaber, behalten)</translation>
+        <translation>-zapwallettxes=1: Obnoviť transakcie z reťazca blokov (zachovať metaúdaje, napr. vlastníka účtu).</translation>
     </message>
     <message>
         <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: Transaktion wiederherstellen (Metadaten verwerfen)</translation>
+        <translation>-zapwallettxes=2: Obnoviť transakcie z reťazca blokov (zahodiť metaúdaje).</translation>
     </message>
     <message>
         <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>Wallet-Format aktualisieren. (dies ist KEINE Aktualisierung des Wallet)</translation>
+        <translation>-upgradewallet: Inovácia peňaženky na posledný formát pri spustený. (Poznámka: toto NIE je aktualizácia samotnej peňaženky!)</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Optionen zur Wallet-Reparatur.</translation>
+        <translation>Možnosti opravy peňaženky.</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Index neu aufbauen</translation>
+        <translation>Znova vytvoriť index</translation>
     </message>
     <message>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>-reindex: Blockkettenindex aus aktuellen Dateien blk000??.dat wieder aufbauen</translation>
+        <translation>-reindex: Znovu vytvoriť index reťazca blokov zo súčastného blk000??.dat súboru.</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>eingehend:</translation>
+        <translation>Dnu:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>ausgehend:</translation>
+        <translation>Von:</translation>
     </message>
     <message>
         <source>Welcome to the Dash RPC console.</source>
-        <translation>Willkommen in der Dash RPC-Console.</translation>
+        <translation>Vitajte v konzole Dash RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Pfeiltaste hoch und runter, um den Verlauf durchzublättern und &lt;b&gt;Strg-L&lt;/b&gt;, um die Konsole zurückzusetzen.</translation>
+        <translation>Použi šipky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Bitte &lt;b&gt;help&lt;/b&gt; eingeben, um eine Übersicht verfügbarer Befehle zu erhalten.</translation>
+        <translation>Napíš &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2000,141 +2000,141 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>über %1</translation>
+        <translation>cez %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>niemals</translation>
+        <translation>nikdy</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Eingehend</translation>
+        <translation>Vstupné</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Ausgehend</translation>
+        <translation>Výstupné</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Unbekannt</translation>
+        <translation>Neznáme</translation>
     </message>
     <message>
         <source>Fetching...</source>
-        <translation>Am Abrufen...</translation>
+        <translation>Načítava sa...</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Eine der bereits verwendeten Empfangsadressen wiederverwenden.&lt;br&gt; Addressen wiederzuverwenden birgt Sicherheits- und Datenschutzrisiken.&lt;br&gt; Außer zum Neuerstellen einer bereits erzeugten Zahlungsanforderung sollten Sie dies nicht nutzen.</translation>
+        <translation>Znovu použiť jednu z už použitých adries pre prijímanie. &lt;br&gt;Znovu používanie adries je problematické v otázke bezpečnosti aj súkromia.&lt;br/&gt; Používajte to len v prípade ak znovu generujete výzvu na zaplatenie, ktorú ste už vytvorili v minulosti.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Vorhandene Empfangsadresse &amp;wiederverwenden (nicht empfohlen)</translation>
+        <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über das Dash-Netzwerk gesendet.</translation>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Dash.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Nachricht:</translation>
+        <translation>&amp;Správa:</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Eine optionale Bezeichnung, die der neuen Empfangsadresse zugeordnet wird.</translation>
+        <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird.&lt;br&gt; Hinweis: Diese Nachricht wird nicht mit der Zahlung über das Dash-Netzwerk gesendet.</translation>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Dash.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Verwenden Sie dieses Formular, um Zahlungen anzufordern. Alle Felder sind &lt;b&gt;optional&lt;/b&gt;.</translation>
+        <translation>Použite tento formulár pre vyžiadanie platby. Všetky polia sú &lt;b&gt;voliteľné&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Bezeichnung:</translation>
+        <translation>&amp;Popis:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Ein optional angeforderte Betrag. Lassen Sie dieses Feld leer oder setzen Sie es auf 0, um keinen spezifischen Betrag anzufordern.</translation>
+        <translation>Voliteľná požadovaná suma. Nechajte prázdne alebo nulu ak nepožadujete určitú sumu.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Betrag:</translation>
+        <translation>&amp;Suma:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Zahlung anfordern</translation>
+        <translation>Vyžiadať platbu</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Alle Formularfelder zurücksetzen.</translation>
+        <translation>Vyčistiť všetky polia formulára.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Zurücksetzen</translation>
+        <translation>Vyčistiť</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Verlauf der angeforderten Zahlungen</translation>
+        <translation>História vyžiadaných platieb</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Ausgewählte Zahlungsanforderungen anzeigen (entspricht einem Doppelklick auf einen Eintrag)</translation>
+        <translation>Zobraz zvolenú požiadavku (urobí to isté ako dvoj-klik na záznam)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Anzeigen</translation>
+        <translation>Zobraziť</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Ausgewählte Einträge aus der Liste entfernen</translation>
+        <translation>Odstrániť zvolené záznamy zo zoznamu</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Odstrániť</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
+        <translation>Kopírovať popis</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Nachricht kopieren</translation>
+        <translation>Kopírovať správu</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
+        <translation>Kopírovať sumu</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR-Code</translation>
+        <translation>QR kód</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>&amp;URI kopieren</translation>
+        <translation>Kopírovať &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>&amp;Addresse kopieren</translation>
+        <translation>Kopírovať adresu</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Grafik &amp;speichern...</translation>
+        <translation>Uložiť obrázok...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Zahlung anfordern an %1</translation>
+        <translation>Vyžiadať platbu pre %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Zahlungsinformationen</translation>
+        <translation>Informácia o platbe</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2142,225 +2142,225 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Betrag</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Bezeichnung</translation>
+        <translation>Popis</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Nachricht</translation>
+        <translation>Správa</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resultierende URI ist zu lang, bitte den Text für Bezeichnung/Nachricht kürzen.</translation>
+        <translation>Výsledné URI príliš dlhé, skráť text pre názov / správu.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Beim Enkodieren der URI in den QR-Code ist ein Fehler aufgetreten.</translation>
+        <translation>Chyba v zakódovaní URI do QR kódu</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Bezeichnung</translation>
+        <translation>Popis</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Nachricht</translation>
+        <translation>Správa</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Betrag</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <translation>(bez popisu)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(keine Nachricht)</translation>
+        <translation>(žiadna správa)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(kein Betrag)</translation>
+        <translation>(žiadna suma)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Dash überweisen</translation>
+        <translation>Poslať Bitcoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>"Coin Control"-Funktionen</translation>
+        <translation>Možnosti "Coin Control"</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Inputs...</translation>
+        <translation>Vstupy...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>automatisch ausgewählt</translation>
+        <translation>automaticky vybrané</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Unzureichender Kontostand!</translation>
+        <translation>Nedostatok prostriedkov!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Anzahl:</translation>
+        <translation>Množstvo:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Byte:</translation>
+        <translation>Bajtov:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Betrag:</translation>
+        <translation>Suma:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Priorität:</translation>
+        <translation>Priorita:</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>mittel</translation>
+        <translation>stredné</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Gebühr:</translation>
+        <translation>Poplatok:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>"Dust"</translation>
+        <translation>Prach:</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nein</translation>
+        <translation>nie</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Abzüglich Gebühr:</translation>
+        <translation>Po poplatku:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wechselgeld:</translation>
+        <translation>Zmena:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Wenn dies aktivert, und die Wechselgeld-Adresse leer oder ungültig ist, wird das Wechselgeld einer neu erzeugten Adresse gutgeschrieben.</translation>
+        <translation>Ak aktivované ale adresa pre výdavok je prázdna alebo neplatná, výdavok bude poslaný na novovytvorenú adresu.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Benutzerdefinierte Wechselgeld-Adresse</translation>
+        <translation>Vlastná adresa zmeny</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Transaktionsgebühr:</translation>
+        <translation>Transakčný poplatok</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Auswählen...</translation>
+        <translation>Vybrať...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>Gebühreneinstellungen reduzieren</translation>
+        <translation>skryť nastavenia poplatkov</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimieren</translation>
+        <translation>Minimalizovať</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die benutzerdefinierten Gebühren auf 1000 duffs gesetzt sind und eine Transaktion hat nur 250 Bytes, dann kostet "pro Kilobyte" nur 250 duffs Gebühren,&lt;br/&gt; während "mindestens" 1000 duffs kostet. Transaktionen größer als 1 Kilobyte werden immer pro Kilobyte bezahlt.</translation>
+        <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die benutzerdefinierten Gebühren auf 1000 duffs gesetzt sind und eine Transaktion hat nur 250 Bytes, dann kostet "pro Kilobyte" nur 250 duffs Gebühren, während "mindestens" 1000 duffs kostet. Transaktionen größer als 1 Kilobyte werden immer pro Kilobyte bezahlt.</translation>
+        <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for darknet transactions than the network can process.</source>
-        <translation>Nur die minimalen Gebühren zu zahlen ist völlig ausreichend so lange in einem neuen Block der Blockkette noch genug Platz für neue Transaktionen ist.&lt;br /&gt; Bitte beachten Sie dass wenn dies in der Zukunft nicht mehr der Fall sein sollte Ihre Transaktion eventuell niemals in einen neuen Block aufgenommen werden wird, also niemals bestätigt wird.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for smc-coin transactions than the network can process.</source>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Dash transakciách väčší ako dokáže sieť Dash spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>pro Kilobyte</translation>
+        <translation>za kilo-byte </translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>mindestens</translation>
+        <translation>celkovo z prinajmenej</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(Kurzinfo lesen)</translation>
+        <translation>(čítať popis)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Empfohlen:</translation>
+        <translation>Doporučené:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Benutzerdefiniert:</translation>
+        <translation>Vlastné:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>("Intelligente" Gebühren sind noch nicht initialisiert. Dies dauert normalerweise ein paar Blöcke...)</translation>
+        <translation>(Inteligentný poplatok nebol ešte inicializovaný. Obvykle to trvá nekoľko blokov...)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>Bestätigungszeit:</translation>
+        <translation>Čas potvrdenia:</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normal</translation>
+        <translation>normálna</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>schnell</translation>
+        <translation>rýchla</translation>
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
-        <translation>Wenn möglich als gebührenfreie Transaktion versenden</translation>
+        <translation>Ak je to možné, poslať transakciu bez poplatku</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
-        <translation>(Bestätigung könnte länger dauern)</translation>
+        <translation>(potvrdenie môže trvať dlhšie)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Überweisung bestätigen</translation>
+        <translation>Potvrďte odoslanie</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Überweisen</translation>
+        <translation>&amp;Odoslať</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Alle Formularfelder zurücksetzen.</translation>
+        <translation>Vyčistiť všetky polia formulára.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Zurücksetzen</translation>
+        <translation>Zmazať &amp;všetko</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>An mehrere Empfänger auf einmal überweisen</translation>
+        <translation>Poslať viacerým príjemcom naraz</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Empfänger &amp;hinzufügen</translation>
+        <translation>&amp;Pridať príjemcu</translation>
     </message>
     <message>
         <source>Obfuscate</source>
@@ -2372,159 +2372,158 @@ https://www.transifex.com/projects/p/darknet/</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Kontostand:</translation>
+        <translation>Zostatok:</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Anzahl kopieren</translation>
+        <translation>Kopírovať množstvo</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
+        <translation>Kopírovať sumu</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Gebühr kopieren</translation>
+        <translation>Kopírovať poplatok</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Abzüglich Gebühr kopieren</translation>
+        <translation>Kopírovať za poplatok</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Byte kopieren</translation>
+        <translation>Kopírovať bajty</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Priorität kopieren</translation>
+        <translation>Kopírovať prioritu</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>"Dust" Betrag kopieren</translation>
+        <translation>Kopírovať prach</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Wechselgeld kopieren</translation>
+        <translation>Kopírovať zmenu</translation>
     </message>
     <message>
         <source>using</source>
-        <translation>mittels</translation>
+        <translation>používa</translation>
     </message>
     <message>
         <source>anonymous funds</source>
-        <translation>anonymisierte Coins</translation>
+        <translation>anonymne zdroje</translation>
     </message>
     <message>
         <source>(obfuscate requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(Obfuscate verlangt, dass dieser Betrag auf den nächsten %1 aufgerundet wird)</translation>
+        <translation>(Obfuscate vyžaduje aby bola táto suma zaokrúhlená nahor k najbližšej %1).</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
-        <translation>beliebiger verfügbarer Coins (nicht empfohlen)</translation>
+        <translation>hociktoré dostupné zdroje (nedoporučuje sa)</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
-        <translation>und SwiftTX</translation>
+        <translation>a SwiftTX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 an %2</translation>
+        <translation>%1 do %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Wollen Sie die Überweisung ausführen?</translation>
+        <translation>Určite to chcete odoslať?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>werden als Transaktionsgebühr hinzugefügt</translation>
+        <translation>pridané ako transakčný poplatok</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Gesamtbetrag = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>Celková suma = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Überweisung bestätigen</translation>
+        <translation>Potvrdiť odoslanie bitcoins</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Gebühren %1 x höher als %2 pro Kilobyte sind wahnsinnig überhöht.</translation>
+        <translation>Poplatok je %1 krát vyšší ako %2 za kB je považovaný za nenormálne vysoký poplatok. </translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Geschätzter Beginn der Bestätigung in %n Block.</numerusform><numerusform>Geschätzter Beginn der Bestätigung in %n Blocks.</numerusform></translation>
+        <translation><numerusform>Odhad pre začiatok potvrdzovania je %n blok.</numerusform><numerusform>Odhad pre začiatok potvrdzovania sú %n bloky.</numerusform><numerusform>Odhad pre začiatok potvrdzovania je %n blokov.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Die Zahlungsadresse ist ungültig, bitte nochmals überprüfen.</translation>
+        <translation>Adresa príjemcu je neplatná, prosím, overte ju.</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 von %2 Einträgen angezeigt)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 z %2 zobrazených položiek)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Der zu zahlende Betrag muss größer als 0 sein.</translation>
+        <translation>Suma na úhradu musí byť väčšia ako 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Der angegebene Betrag übersteigt ihren Kontostand.</translation>
+        <translation>Suma je vyššia ako Váš zostatok.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Der angegebene Betrag übersteigt aufgrund der Transaktionsgebühr in Höhe von %1 ihren Kontostand.</translation>
+        <translation>Suma celkom prevyšuje Váš zostatok ak sú započítané %1 transakčné poplatky.</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Doppelte Zahlungsadresse gefunden, pro Überweisung kann an jede Adresse nur einmalig etwas überwiesen werden.</translation>
+        <translation>Duplikát adresy objavený, je možné poslať na každú adresu len raz v jednej odchádzajúcej transakcii.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Transaktionserstellung fehlgeschlagen!</translation>
+        <translation>Vytvorenie transakcie zlyhalo!</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Die Transaktion wurde abgelehnt! 
-Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat nutzten und die Dash dort ausgegeben haben. Diese Ausgaben sind in diesem Fall in der derzeit aktiven Wallet nicht vermerkt.</translation>
+        <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Fehler: das Wallet wurde nur zum Anonymisieren entsperrt.</translation>
+        <translation>Chyba: Peňaženka bola odomknutá iba pre anonymizáciu mincí.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>Nur die minimalen Gebühren von %1 zahlen</translation>
+        <translation>Platiť iba minimálny poplatok %1</translation>
     </message>
     <message>
         <source>Warning: Invalid Dash address</source>
-        <translation>Warnung: ungültige Dash-Adresse</translation>
+        <translation>Upozornenie: Neplatná Dash adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Warnung: Unbekannte Wechselgeld-Adresse</translation>
+        <translation>Varovanie: Neznáma adresa pre výdavok</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <translation>(bez popisu)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Dies ist eine normale Überweisung.</translation>
+        <translation>Toto je normálna platba.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>E&amp;mpfänger:</translation>
+        <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
         <source>The Dash address to send the payment to</source>
-        <translation>Dash-Adresse, an die überwiesen werden soll</translation>
+        <translation>Dash adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Bereits verwendete Adresse auswählen</translation>
+        <translation>Vybrať predtým použitú adresu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2532,7 +2531,7 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Adresse aus der Zwischenablage einfügen</translation>
+        <translation>Vložiť adresu z klipbordu</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2540,81 +2539,81 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Diesen Eintrag entfernen</translation>
+        <translation>Odstrániť túto položku</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Bezeichnung:</translation>
+        <translation>&amp;Popis:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Adressbezeichnung eingeben, die dann zusammen mit der Adresse der Liste bereits verwendeter Adressen hinzugefügt wird.</translation>
+        <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Betra&amp;g:</translation>
+        <translation>Su&amp;ma:</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Nachricht:</translation>
+        <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the darknet: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Eine an die "darknet:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Dash-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the smc-coin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <translation>Správa ktorá bola pripojená ku smc-coin: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Dash.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
-        <translation>Dies is eine unverifizierte Zahlungsanforderung.</translation>
+        <translation>Toto je neoverená výzva k platbe.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Empfänger:</translation>
+        <translation>Platba pre:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Memo:</translation>
+        <translation>Poznámka:</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
-        <translation>Dies is eine verifizierte Zahlungsanforderung.</translation>
+        <translation>Toto je overená výzva k platbe.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Adressbezeichnung eingeben (diese wird zusammen mit der Adresse dem Adressbuch hinzugefügt)</translation>
+        <translation>Vložte popis pre túto adresu aby sa pridala do adresára</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>Dash Core is shutting down...</source>
-        <translation>Dash-Core wird herunter gefahren...</translation>
+        <translation>Dash core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Fahren Sie den Computer nicht herunter, bevor dieses Fenster verschwindet.</translation>
+        <translation>Nevypínajte počítač kým toto okno nezmizne.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signaturen - eine Nachricht signieren / verifizieren</translation>
+        <translation>Podpisy - Podpísať / Overiť správu</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>Nachricht &amp;signieren</translation>
+        <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Sie können Nachrichten mit ihren Adressen signieren, um den Besitz dieser Adressen zu beweisen. Bitte nutzen Sie diese Funktion mit Vorsicht und nehmen Sie sich vor Phishingangriffen in Acht. Signieren Sie nur Nachrichten, mit denen Sie vollständig einverstanden sind.</translation>
+        <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
     </message>
     <message>
         <source>The Dash address to sign the message with</source>
-        <translation>Dash-Adresse, mit der die Nachricht signiert werden soll</translation>
+        <translation>Dash adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Bereits verwendete Adresse auswählen</translation>
+        <translation>Vybrať predtým použitú adresu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2622,7 +2621,7 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Adresse aus der Zwischenablage einfügen</translation>
+        <translation>Vložte adresu z klipbordu</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2630,107 +2629,107 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Zu signierende Nachricht hier eingeben</translation>
+        <translation>Sem vložte správu ktorú chcete podpísať</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Signatur</translation>
+        <translation>Podpis</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Aktuelle Signatur in die Zwischenablage kopieren</translation>
+        <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Dash address</source>
-        <translation>Die Nachricht signieren, um den Besitz dieser Dash-Adresse zu belegen</translation>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Dash adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>&amp;Nachricht signieren</translation>
+        <translation>Podpísať &amp;správu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Alle "Nachricht signieren"-Felder zurücksetzen</translation>
+        <translation>Vynulovať všetky polia podpisu správy</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Zurücksetzen</translation>
+        <translation>Zmazať &amp;všetko</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>Nachricht &amp;verifizieren</translation>
+        <translation>Overiť správu...</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Geben Sie die signierende Adresse, Nachricht (achten Sie darauf Zeilenumbrüche, Leerzeichen, Tabulatoren usw. exakt zu kopieren) und Signatur unten ein, um die Nachricht zu verifizieren. Vorsicht, interpretieren Sie nicht mehr in die Signatur hinein, als in der signierten Nachricht selber enthalten ist, um nicht von einem Man-in-the-middle-Angriff hinters Licht geführt zu werden.</translation>
+        <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
         <source>The Dash address the message was signed with</source>
-        <translation>Dash-Adresse, mit der die Nachricht signiert worden ist</translation>
+        <translation>Adresa Dash s ktorou bola podpísaná správa</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Dash address</source>
-        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Dash-Adresse signiert wurde</translation>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Dash adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>&amp;Nachricht verifizieren</translation>
+        <translation>Overiť správu</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Alle "Nachricht verifizieren"-Felder zurücksetzen</translation>
+        <translation>Obnoviť všetky polia v overiť správu</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Auf "Nachricht signieren" klicken, um die Signatur zu erzeugen</translation>
+        <translation>Kliknite "Podpísať Správu" na získanie podpisu</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Die eingegebene Adresse ist ungültig.</translation>
+        <translation>Zadaná adresa je neplatná.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Bitte überprüfen Sie die Adresse und versuchen Sie es erneut.</translation>
+        <translation>Prosím skontrolujte adresu a skúste znova.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Die eingegebene Adresse verweist nicht auf einen Schlüssel.</translation>
+        <translation>Vložená adresa nezodpovedá žiadnemu kľúcu.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Wallet-Entsperrung wurde abgebrochen.</translation>
+        <translation>Odomknutie peňaženky bolo zrušené.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privater Schlüssel zur eingegebenen Adresse ist nicht verfügbar.</translation>
+        <translation>Súkromný kľúč pre vložená adresu nieje k dispozícii.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Signierung der Nachricht fehlgeschlagen.</translation>
+        <translation>Podpísanie správy zlyhalo.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Nachricht signiert.</translation>
+        <translation>Správa podpísaná.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Die Signatur konnte nicht dekodiert werden.</translation>
+        <translation>Podpis nie je možné dekódovať.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Bitte überprüfen Sie die Signatur und versuchen Sie es erneut.</translation>
+        <translation>Prosím skontrolujte podpis a skúste znova.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Die Signatur entspricht nicht dem "Message Digest".</translation>
+        <translation>Podpis sa nezhoduje so zhrnutím správy</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Verifikation der Nachricht fehlgeschlagen.</translation>
+        <translation>Overenie správy zlyhalo.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Nachricht verifiziert.</translation>
+        <translation>Správa overená.</translation>
     </message>
 </context>
 <context>
@@ -2741,19 +2740,19 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation>Verzia %1</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Die "Bitcoin Core"-Entwickler</translation>
+        <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
         <source>The Dash Core developers</source>
-        <translation>Die "Dash Core"-Entwickler</translation>
+        <translation>Vývojári Dash Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
-        <translation>[Testnetz]</translation>
+        <translation>[testovacia sieť]</translation>
     </message>
 </context>
 <context>
@@ -2767,27 +2766,27 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Geöffnet für %n weiteren Block</numerusform><numerusform>Geöffnet für %n weitere Blöcke</numerusform></translation>
+        <translation><numerusform>Otvoriť pre %n ďalší blok</numerusform><numerusform>Otvoriť pre %n ďalšie bloky</numerusform><numerusform>Otvoriť pre %n ďalších blokov</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Offen bis %1</translation>
+        <translation>Otvorené do %1</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>in Konflikt stehend</translation>
+        <translation>sporné</translation>
     </message>
     <message>
         <source>%1/offline (verified via swifttx)</source>
-        <translation>%1/offline (Überprüft durch SwiftTX)</translation>
+        <translation>%1/offline (overené pomocou swifttx)</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via swifttx)</source>
-        <translation>%1/bestätigt (Überprüft durch SwiftTX)</translation>
+        <translation>%1/potvrdené (overené pomocou swifttx)</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via swifttx)</source>
-        <translation>%1 Bestätigungen (Überprüft durch SwiftTX)</translation>
+        <translation>%1 potvrdení (overené pomocou swifttx)</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -2795,173 +2794,173 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/unbestätigt</translation>
+        <translation>%1/nepotvrdené</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 Bestätigungen</translation>
+        <translation>%1 potvrdení</translation>
     </message>
     <message>
         <source>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/offline (Überprüfung durch SwiftTX - %2 von %3 Signaturen)</translation>
+        <translation>%1/offline (Prebieha overovanie SwiftTX - %2 z %3 podpisov)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/bestätigt (Überprüfung durch SwiftTX - %2 von %3 Signaturen)</translation>
+        <translation>%1/potvrdené (Prebieha overovanie SwiftTX - %2 z %3 podpisov)</translation>
     </message>
     <message>
         <source>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 Bestätigungen (Überprüfung durch SwiftTX - %2 von %3 Signaturen)</translation>
+        <translation>%1 potvrdení (Prebieha overovanie SwiftTX - %2 z %3 podpisov)</translation>
     </message>
     <message>
         <source>%1/offline (SwiftTX verification failed)</source>
-        <translation>%1/offline (Überprüfung durch SwiftTX fehlgeschlagen)</translation>
+        <translation>%1/offline (Overovanie SwiftTX zlyhalo)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftTX verification failed)</source>
-        <translation>%1/bestätigt (Überprüfung durch SwiftTX fehlgeschlagen)</translation>
+        <translation>%1/potvrdené (Overovanie SwiftTX zlyhalo)</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>Stav</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, wurde noch nicht erfolgreich übertragen</translation>
+        <translation>, ešte nebola úspešne odoslaná</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, über %n Knoten übertragen</numerusform><numerusform>, über %n Knoten übertragen</numerusform></translation>
+        <translation><numerusform>, vysielaný cez %n uzol</numerusform><numerusform>, vysielaný cez %n uzle</numerusform><numerusform>, vysielaný cez %n uzlov</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Quelle</translation>
+        <translation>Zdroj</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Erzeugt</translation>
+        <translation>Vygenerované</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Von</translation>
+        <translation>od</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>unbekannt</translation>
+        <translation>neznámy</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>An</translation>
+        <translation>Pre</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>eigene Adresse</translation>
+        <translation>vlastná adresa</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>beobachtet</translation>
+        <translation>iba sledovanie</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>Bezeichnung</translation>
+        <translation>popis</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Gutschrift</translation>
+        <translation>Kredit</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>reift noch %n Block</numerusform><numerusform>reift noch %n weitere Blöcke</numerusform></translation>
+        <translation><numerusform>dozreje za %n ďalší blok</numerusform><numerusform>dozreje za %n ďalšie bloky</numerusform><numerusform>dozreje za %n ďalších blokov</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>nicht angenommen</translation>
+        <translation>neprijaté</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Belastung</translation>
+        <translation>Debet</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Gesamtbelastung</translation>
+        <translation>Celkový debet</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Gesamtgutschrift</translation>
+        <translation>Celkový kredit</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Transaktionsgebühr</translation>
+        <translation>Transakčný poplatok</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Nettobetrag</translation>
+        <translation>Suma netto</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Nachricht</translation>
+        <translation>Správa</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Kommentar</translation>
+        <translation>Komentár</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Transaktions-ID</translation>
+        <translation>ID transakcie</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Händler</translation>
+        <translation>Kupec</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte Dash müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine Dash gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Vytvorené coins musia dospieť %1 blokov kým môžu byť minuté. Keď vytvoríte tento blok, bude rozoslaný do siete aby bol akceptovaný do reťaze blokov. Ak sa nedostane reťaze, jeho stav sa zmení na "zamietnutý" a nebude sa dať minúť. Toto sa môže občas stať ak iná nóda vytvorí blok približne v tom istom čase.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Debuginformationen</translation>
+        <translation>Ladiace informácie</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transaktion</translation>
+        <translation>Transakcie</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Eingaben</translation>
+        <translation>Vstupy</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Betrag</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>wahr</translation>
+        <translation>pravda</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>falsch</translation>
+        <translation>nepravda</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>Transaktionsdetails</translation>
+        <translation>Detaily transakcie</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dieser Bereich zeigt eine detaillierte Beschreibung der Transaktion an</translation>
+        <translation>Táto časť obrazovky zobrazuje detailný popis transakcie</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Type</source>
@@ -2969,15 +2968,15 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Adresa</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Geöffnet für %n weiteren Block</numerusform><numerusform>Geöffnet für %n weitere Blöcke</numerusform></translation>
+        <translation><numerusform>Otvoriť pre %n ďalší blok</numerusform><numerusform>Otvoriť pre %n ďalšie bloky</numerusform><numerusform>Otvoriť pre %n ďalších blokov</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Offen bis %1</translation>
+        <translation>Otvorené do %1</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -2985,234 +2984,234 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Unbestätigt</translation>
+        <translation>Nepotvrdené</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Wird bestätigt (%1 von %2 empfohlenen Bestätigungen)</translation>
+        <translation> Potvrdzuje sa ( %1 z  %2 odporúčaných potvrdení)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bestätigt (%1 Bestätigungen)</translation>
+        <translation>Potvrdené (%1 potvrdení)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>in Konflikt stehend</translation>
+        <translation>V rozpore</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Unreif (%1 Bestätigungen, wird verfügbar sein nach %2)</translation>
+        <translation>Nezrelé (%1 potvrdení, bude k dispozícii po %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Dieser Block wurde von keinem anderen Knoten empfangen und wird wahrscheinlich nicht angenommen werden!</translation>
+        <translation>Ten blok nebol prijatý žiadnou inou nódou a pravdepodobne nebude akceptovaný!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Erzeugt, jedoch nicht angenommen</translation>
+        <translation>Vypočítané ale neakceptované</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Empfangen über</translation>
+        <translation>Prijaté s</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Empfangen von</translation>
+        <translation>Prijaté od:</translation>
     </message>
     <message>
         <source>Received via Obfuscate</source>
-        <translation>über/durch Obfuscate empfangen</translation>
+        <translation>Prijaté cez Obfuscate</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Überwiesen an</translation>
+        <translation>Odoslané na</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Eigenüberweisung</translation>
+        <translation>Platba sebe samému</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Erarbeitet</translation>
+        <translation>Vyfárané</translation>
     </message>
     <message>
         <source>Obfuscate Denominate</source>
-        <translation>Obfuscate Stückelung</translation>
+        <translation>Denominácia Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscate Collateral Payment</source>
-        <translation>Obfuscate Sicherheits-Zahlung</translation>
+        <translation>Zaisťovacia Obfuscate platba</translation>
     </message>
     <message>
         <source>Obfuscate Make Collateral Inputs</source>
-        <translation>Obfuscate Sicherheits-Eingänge machen</translation>
+        <translation>Obfuscate uskutočnil zaisťovacie vstupy</translation>
     </message>
     <message>
         <source>Obfuscate Create Denominations</source>
-        <translation>Obfuscate Stückelungs-Gebühr</translation>
+        <translation>Vytvoriť denominácie Obfuscate</translation>
     </message>
     <message>
         <source>Darksent</source>
-        <translation>Obfuscate</translation>
+        <translation>Darksent</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>beobachtet</translation>
+        <translation>iba sledovanie</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(k.A.)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaktionsstatus, fahren Sie mit der Maus über dieses Feld, um die Anzahl der Bestätigungen zu sehen.</translation>
+        <translation>Status transakcie. Pohybujte myšou nad týmto poľom a zjaví sa počet potvrdení.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Datum und Uhrzeit zu der die Transaktion empfangen wurde.</translation>
+        <translation>Dátum a čas prijatia transakcie.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Art der Transaktion</translation>
+        <translation>Typ transakcie.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Zeigt ob eine beobachtete Adresse in dieser Transaktion beteiligt ist.</translation>
+        <translation>Či sú ale nie sú, adresy iba na sledovanie zahrnuté v tejto transakcii.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Zieladresse der Transaktion</translation>
+        <translation>Cieľová adresa transakcie.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Der Betrag, der dem Kontostand abgezogen oder hinzugefügt wurde.</translation>
+        <translation>Suma pridaná alebo odobraná k zostatku.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Alle</translation>
+        <translation>Všetko</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Heute</translation>
+        <translation>Dnes</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Diese Woche</translation>
+        <translation>Tento týždeň</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Diesen Monat</translation>
+        <translation>Tento mesiac</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Letzten Monat</translation>
+        <translation>Minulý mesiac</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Dieses Jahr</translation>
+        <translation>Tento rok</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Zeitraum...</translation>
+        <translation>Rozsah...</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Gängigste</translation>
+        <translation>Najčastejšie</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Empfangen über</translation>
+        <translation>Prijaté s</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Überwiesen an</translation>
+        <translation>Odoslané na</translation>
     </message>
     <message>
         <source>Darksent</source>
-        <translation>Obfuscate</translation>
+        <translation>Darksent</translation>
     </message>
     <message>
         <source>Obfuscate Make Collateral Inputs</source>
-        <translation>Obfuscate Sicherheits-Eingänge machen</translation>
+        <translation>Obfuscate uskutočnil zaisťovacie vstupy</translation>
     </message>
     <message>
         <source>Obfuscate Create Denominations</source>
-        <translation>Obfuscate Stückelungs-Gebühr</translation>
+        <translation>Vytvoriť denominácie Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscate Denominate</source>
-        <translation>Obfuscate Stückelung</translation>
+        <translation>Denominácia Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscate Collateral Payment</source>
-        <translation>Obfuscate Sicherheits-Zahlung</translation>
+        <translation>Zaisťovacia Obfuscate platba</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Eigenüberweisung</translation>
+        <translation>Samému sebe</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Erarbeitet</translation>
+        <translation>Vyfárané</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Andere</translation>
+        <translation>Iné</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Zu suchende Adresse oder Bezeichnung eingeben</translation>
+        <translation>Vložte adresu alebo popis pre vyhľadávanie</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Minimaler Betrag</translation>
+        <translation>Min množstvo</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Adresse kopieren</translation>
+        <translation>Kopírovať adresu</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
+        <translation>Kopírovať popis</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
+        <translation>Kopírovať sumu</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Transaktions-ID kopieren</translation>
+        <translation>Kopírovať ID transakcie</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Bezeichnung bearbeiten</translation>
+        <translation>Editovať popis</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Transaktionsdetails anzeigen</translation>
+        <translation>Zobraziť podrobnosti transakcie</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Transaktionsverlauf exportieren</translation>
+        <translation>Exportovať históriu transakcií</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagetrennte-Datei (*.csv)</translation>
+        <translation>Čiarkou oddelovaný súbor (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bestätigt</translation>
+        <translation>Potvrdené</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Beobachtet</translation>
+        <translation>Iba sledovanie</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Type</source>
@@ -3220,11 +3219,11 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Label</source>
-        <translation>Bezeichnung</translation>
+        <translation>Popis</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <source>ID</source>
@@ -3232,485 +3231,485 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Exportieren fehlgeschlagen</translation>
+        <translation>Export zlyhal</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Beim Speichern des Transaktionsverlaufs nach %1 ist ein Fehler aufgetreten.</translation>
+        <translation>Vyskytla sa chyba pri pokuse o uloženie histórie transakcií do %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Exportieren erfolgreich</translation>
+        <translation>Export úspešný</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>Speichern des Transaktionsverlaufs nach %1 war erfolgreich.</translation>
+        <translation>História transakciá bola úspešne uložená do %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Zeitraum:</translation>
+        <translation>Rozsah:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>bis</translation>
+        <translation>do</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Angezeigte Einheit. Anklicken, um andere Einheit zu wählen.</translation>
+        <translation>Jednotka pre zobrazovanie súm. Kliknite pre zvolenie inej jednotky.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Es wurde keine Wallet geladen.</translation>
+        <translation>Nie je načítaná peňaženka.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Dash überweisen</translation>
+        <translation>Poslať Bitcoins</translation>
     </message>
     <message>
         <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 DNET.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 DNET begrenzt.</translation>
+        <translation>SwiftTX zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 DNET.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>E&amp;xportieren</translation>
+        <translation>&amp;Exportovať...</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Daten der aktuellen Ansicht in eine Datei exportieren</translation>
+        <translation>Exportovať tento náhľad do súboru</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Ausgewählter Betrag:</translation>
+        <translation>Vybraná suma:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Wallet sichern</translation>
+        <translation>Zálohovať peňaženku</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Wallet-Daten (*.dat)</translation>
+        <translation>Údaje peňaženky (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Sicherung fehlgeschlagen</translation>
+        <translation>Záloha zlyhala</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Beim Speichern der Wallet-Daten nach %1 ist ein Fehler aufgetreten.</translation>
+        <translation>Vyskytla sa chyba pri pokuse o uloženie dát peňaženky do %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Sicherung erfolgreich</translation>
+        <translation>Záloha úspešná</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Speichern der Wallet-Daten nach %1 war erfolgreich.</translation>
+        <translation>Dáta peňaženky boli úspešne uložené do %1.</translation>
     </message>
 </context>
 <context>
-    <name>darknet-core</name>
+    <name>smc-coin-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Schreibweise verwenden</translation>
+        <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
-        <translation>Das Programm kann das Daten-Verzeichnis %s nicht als "in Verwendung" markieren. Wahrscheinlich läuft das Programm bereits.</translation>
+        <translation>Nedá sa zamknúť dátový adresár %s. Dash Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Obfuscate benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr Dash anonymisieren.</translation>
+        <translation>Pre poslanie zdrojov používa Obfuscate presné sumy, potrebujete jednoducho anonymizovať viac mincí. </translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Regressionstest-Modus aktivieren, der eine spezielle Blockkette nutzt, in der Blöcke sofort gelöst werden können.</translation>
+        <translation>Vstúpiť do regresného testovacieho módu, ktorý používa špeciálny reťazec blokov, kde sa dajú bloky ťažiť okamžite.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Fehler: Abhören nach eingehenden Verbindungen fehlgeschlagen (Fehler %s)</translation>
+        <translation>Chyba: Počúvanie prichádzajúcich spojení zlyhalo (vrátená chyba je %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Befehl ausführen wenn ein relevanter Alarm empfangen wird oder wir einen wirklich langen Fork entdecken (%s im Befehl wird durch die Nachricht ersetzt)</translation>
+        <translation>Vykonať príkaz po prijatí patričného varovania alebo uvidíme veľmi dlhé rozdvojenie siete (%s v cmd je nahradené správou)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Befehl ausführen wenn sich eine Wallet-Transaktion verändert (%s im Befehl wird durch die TxID ersetzt)</translation>
+        <translation>Spustiť príkaz ak sa zmení transakcia v peňaženke (%s v cmd sa nahrádza TxID)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Befehl ausführen wenn der beste Block wechselt (%s im Befehl wird durch den Hash des Blocks ersetzt)</translation>
+        <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>In diesem Modus legt -genproclimit fest, wie viele Blöcke sofort erzeugt werden.</translation>
+        <translation>V tomto móde -genproclimit kontroluje počet blokov, ktoré sú vygenerované okamžite.</translation>
     </message>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftTX benötigt Zahlungseingänge mit mindestens 6 Bestätigungen, warten Sie also ein paar Minuten und versuchen Sie es dann erneut.</translation>
+        <translation>SwiftTX vyžaduje vstupy s aspoň 6 potvrdeniami, môžete počkať pár minút a skúsiť znova.</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
-        <translation>Name, um eine URL für den KeyPass-Eintrag zu erzeugen, der die Wallet-Passphrase speichert.</translation>
+        <translation>Meno pre vytvorenie url pre položku KeePass, ktorá uchová heslo peňženky</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Abfrage der Peer-Adressen über DNS, falls es wenige Adressen gibt (Standard: 1, außer wenn -connect konfiguriert wurde)</translation>
+        <translation>Dotaz na partnerské adresy pomocou vyhľadávania DNS v prípade nedostatku adries (predvolené: 1, pokiaľ -connect)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Maximale Größe in Byte von Transaktionen hoher Priorität/mit niedrigen Gebühren festlegen (Standard: %d)</translation>
+        <translation>Nastavte maximálnu veľkosť vysoko-prioritných/nízko-poplatkových transakcií v bajtoch (predvolené: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Maximale Anzahl an Skript-Verifizierungs-Threads festlegen (%u bis %d, 0 = automatisch, &lt;0 = so viele Kerne frei lassen, Standard: %d)</translation>
+        <translation>Nastaviť počeť vlákien overujúcich skripty (%u až %d, 0 = auto, &lt;0 = nechať toľkoto jadier voľných, prednastavené: %d)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Dies ist eine Vorab-Testversion - Verwendung auf eigene Gefahr - nicht für Mining- oder Handelsanwendungen nutzen!</translation>
+        <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
-        <translation>Dash Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft das Programm bereits.</translation>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Dash Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
-        <translation>Für diese Transaktion konnten nicht genug mit Obfuscate gestückelte Beträge gefunden werden.</translation>
+        <translation>Nedá sa nájsť dostatok denominácií Obfuscate pre túto transakciu. </translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 DNET.</source>
-        <translation>Für diese Transaktion konnten nicht genug nicht mit Obfuscate gestückelte Beträge gefunden werden, die ungleich 1000 DNET sind.</translation>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných Obfuscate zdrojov pre túto transakciu, ktoré nie sú rovné 1000 DNET.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Warnung: -paytxfee ist auf einen sehr hohen Wert festgelegt! Dies ist die Gebühr die beim Senden einer Transaktion fällig wird.</translation>
+        <translation>Upozornenie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Warnung: Das Netzwerk scheint nicht vollständig übereinzustimmen! Einige Miner scheinen Probleme zu haben.</translation>
+        <translation>Varovanie: Javí sa že sieť sieť úplne nesúhlasí! Niektorí mineri zjavne majú ťažkosti.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Warnung: Wir scheinen nicht vollständig mit unseren Gegenstellen übereinzustimmen! Sie oder die anderen Knoten müssen unter Umständen ihre Client-Software aktualisieren.</translation>
+        <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Warnung: Lesen von wallet.dat fehlgeschlagen! Alle Schlüssel wurden korrekt gelesen, Transaktionsdaten bzw. Adressbucheinträge fehlen aber möglicherweise oder sind inkorrekt.</translation>
+        <translation>Upozornenie: Chyba pri čítaní wallet.dat! Všetky kľúče načítané správne, ale transakčné dáta alebo položky adresára môže chýbať alebo byť nesprávne.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Warnung: wallet.dat beschädigt, Datenrettung erfolgreich! Original wallet.dat wurde als wallet.{Zeitstempel}.dat in %s gespeichert. Falls ihr Kontostand oder Transaktionen nicht korrekt sind, sollten Sie dem vorangegangenen Zustand durch die Datensicherung wiederherstellen.</translation>
+        <translation>Upozornenie: wallet.dat poškodený, údaje zachránené! Pôvodný wallet.dat bol uložený ako wallet.{timestamp}.bak v %s; ak váš zostatok alebo transakcie nie sú správne, mali by ste obnoviť zo zálohy.</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Es muss ein Masternode-Geheimschlüssel (masternodeprivkey) in der Konfiguration angegeben werden. Für weitere Informationen siehe Dokumentation.</translation>
+        <translation>V konfigurácii musíte špecifikovať masternodeprivkey. Pre pomoc sa prosím pozrite do dokumentácie.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(Standard: 1)</translation>
+        <translation>(predvolené: 1)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Kommandozeilen- und JSON-RPC-Befehle annehmen</translation>
+        <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Eingehende Verbindungen annehmen (Standard: 1, wenn nicht -proxy oder -connect)</translation>
+        <translation>Prijímať pripojenie z vonku (predvolené: 1, ak nie -proxy alebo -connect)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Mit dem angegebenen Knoten verbinden und versuchen die Verbindung aufrecht zu erhalten</translation>
+        <translation>Pridať uzol pre pripojenie a pokúsiť sa udržať otvorené pripojenie</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Erlaube DNS-Abfragen für -addnode, -seednode und -connect</translation>
+        <translation>Povoliť vyhľadávania DNS pre -addnode, -seenode a -connect</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Haben diesen Eintrag bereits.</translation>
+        <translation>Tento vstup už máme.</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Versuchen, private Schlüssel aus einer beschädigten wallet.dat wiederherzustellen</translation>
+        <translation>Pokus obnoviť súkromné kľúče z poškodeného wallet.dat</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Blockerzeugungsoptionen:</translation>
+        <translation>Možnosti vytvorenia bloku:</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Kann nicht zerstückeln: keine kompatiblen Eingänge übrig.</translation>
+        <translation>Nedá sa denominovať: nezostávajú žiadne kompatibilné vstupy.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Wallet kann nicht auf eine ältere Version herabgestuft werden</translation>
+        <translation>Nie je možné prejsť na staršiu verziu peňaženky</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Kann Adresse in -bind nicht auflösen: '%s'</translation>
+        <translation>Nedá sa vyriešiť -bind adresa: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Kann Adresse in -externalip nicht auflösen: '%s'</translation>
+        <translation>Nedá sa vyriešiť -externalip adresa: '%s'</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Standardadresse kann nicht geschrieben werden</translation>
+        <translation>Nie je možné zapísať predvolenú adresu</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Sicherheitszahlung nicht gültig.</translation>
+        <translation>Zaistenie je neplatné.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Mit nur dem oder den angegebenen Knoten verbinden</translation>
+        <translation>Pripájať iba k zadanému uzlu(om)</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Mit dem angegebenen Knoten verbinden, um Adressen von Gegenstellen abzufragen, danach trennen</translation>
+        <translation>Pre načítanie peer adresy sa pripojte k uzlu, a odpojte</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Verbindungsoptionen:</translation>
+        <translation>Možnosti pripojenia:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Beschädigte Blockdatenbank erkannt</translation>
+        <translation>Zistený poškodený blok databázy</translation>
     </message>
     <message>
         <source>Obfuscate options:</source>
-        <translation>Obfuscate Optionen:</translation>
+        <translation>Možnosti Obfuscate:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Debugging-/Testoptionen:</translation>
+        <translation>Možnosti Ladenia/Testovania:</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Eigene IP-Adresse erkennen (Standard: 1, wenn abgehört wird und nicht -externalip)</translation>
+        <translation>Odhaliť vlastnú IP adresu (predvolené: 1 pri počúvanie a bez -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Die Wallet nicht laden und Wallet-RPC-Aufrufe deaktivieren</translation>
+        <translation>Nenačítať peňaženku a vypnúť RPC volania peňaženky</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Möchten Sie die Blockdatenbank jetzt neu aufbauen?</translation>
+        <translation>Chcete znovu zostaviť databázu blokov?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Laden abgeschlossen</translation>
+        <translation>Načítanie hotové</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Warteschlange ist voll.</translation>
+        <translation>Položky sú plné.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Fehler beim Initialisieren der Blockdatenbank</translation>
+        <translation>Chyba pri inicializácii databázy blokov</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Fehler beim Initialisieren der Wallet-Datenbankumgebung %s!</translation>
+        <translation>Chyba pri inicializácii databázového prostredia peňaženky %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Fehler beim Laden der Blockdatenbank</translation>
+        <translation>Chyba pri načítaní databázy blokov</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Fehler beim Laden von wallet.dat</translation>
+        <translation>Chyba pri načítaní wallet.dat</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Fehler beim Laden von wallet.dat: Wallet beschädigt</translation>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka je poškodená</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Fehler beim Öffnen der Blockdatenbank</translation>
+        <translation>Chyba pri otváraní databázy blokov</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Fehler beim Lesen der Datenbank, Anwendung wird heruntergefahren.</translation>
+        <translation>Chyba pri načítaní z databázy, ukončuje sa.</translation>
     </message>
     <message>
         <source>Error recovering public key.</source>
-        <translation>Fehler bei der Wiederherstellung des öffentlichen Schlüssels.</translation>
+        <translation>Chyba pri obnovovaní verejného kľúča.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Fehler</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Fehler: Zu wenig freier Speicherplatz auf dem Datenträger!</translation>
+        <translation>Chyba: Nedostatok miesta na disku!</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Fehler: Wallet gesperrt, Transaktion kann nicht erstellt werden!</translation>
+        <translation>Chyba: Peňaženka je zamknutá, transakcia sa nedá vytvoriť!</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Obfuscate pool</source>
-        <translation>Fehler: Es sind bereits anstehende Einträge im Obfuscate-Pool</translation>
+        <translation>Chyba: Už máte čakajúce položky vo fronte Obfuscate</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Fehler, es konnte kein Port abgehört werden. Wenn dies so gewünscht wird -listen=0 verwenden.</translation>
+        <translation>Nepodarilo sa počúvať žiadnom porte. Použite -listen=0 ak to chcete.</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>Lesen des Blocks fehlgeschlagen</translation>
+        <translation>Načítanie bloku zlyhalo</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Wenn &lt;category&gt; nicht angegeben wird, jegliche Debugginginformationen ausgeben.</translation>
+        <translation>If &lt;category&gt; is not supplied, output all debugging information.</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = Transaktions-Metadaten wie z.B. Kontoinhaber behalten, 2 = Metadaten verwerfen)</translation>
+        <translation>(1 = zachovať metaúdaje tx napr. vlastníka účtu a informácie o platobných príkazoch, 2 = zahodiť metaúdaje tx)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>JSON-RPC Verbindungen von einer bestimmten Quelle zulassen. Für &lt;ip&gt; sind einzelne IPs (z.B. 1.2.3.4), Netzwerk/Netzmasken (z.B. 1.2.3.4/255.255.255.0) oder Netzwerk/CIDR (z.B. 1.2.3.4/24) erlaubt. Diese Option kann mehrmals eingetragen werden.</translation>
+        <translation>Povoliť JSON-RPC pripojenia zo zadaného zdroja. Pre &lt;ip&gt; sú platné jednoduché IP (napr. 1.2.3.4), sieť/netmask (napr. 1.2.3.4/255.255.255.0) alebo sieť/CIDR (napr. 1.2.3.4/24). Táto možnosť môže byť zadaná niekoľko krát</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
-        <translation>Beim Einrichten der RPC-Adresse %s, Port %u zum Abhören von %s ist ein Fehler aufgetreten</translation>
+        <translation>Pri nastavovaní RPC adresy %s na porte %u pre počúvanie došlo k chybe: %s</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>An die angegebene Adresse binden und Gegenstellen in die Liste der erlaubten Gegenstellen aufnehmen. Für IPv6 "[Host]:Port"-Schreibweise verwenden</translation>
+        <translation>Spojiť s danou adresou a povolenými partnerskými zariadeniami ktoré sa tam pripájajú. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Für JSON-RPC Verbindugen an die angegebene Adresse binden. Für IPv6 "[Host]:Port"-Schreibweise verwenden. Diese Option kann mehrmals eingetragen werden. (Standard: an alle verbinden)</translation>
+        <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Wahlverhalten für Abschlussbudget ändern. mode=auto: nur wählen, wenn Abschlussbudget genau meinem generierten Budget entspricht. (Standard: auto)</translation>
+        <translation>Zmeniť vlastnosť hlasovania automaticky dokončených rozpočtov. mód=auto: Hlasovať iba pre konkrétny dokončený rozpočet, ktorý sa zhoduje mojím vygenerovaným rozpočtom. (reťazec, predvolené: auto)</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Anzahl der freien Transaktionen auf &lt;n&gt; * 1000 Byte pro Minute begrenzen (Standard: %u)</translation>
+        <translation>Nepretržite vyhodnocuj a limituj transakcie bez poplatku na &lt;n&gt;*1000 bajtov za minútu (predvolené:%u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Neue Dateien mit den System-Standardberechtigungen (anstatt 077) erzeugen (nur bei deaktiviertem Wallet möglich)</translation>
+        <translation>Vytvoriť nové súbory z predvolenými systémovými právami, namiesto umask 077 (funguje iba z vypnutou funkcionalitou peňaženky)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Lösche alle Wallet-Transaktionen stelle nur diese mittels -rescan beim nächsten Start des Wallets wieder her.</translation>
+        <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
         <source>Disable all Dash specific functionality (Masternodes, Obfuscate, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktiviere all Dash-spezifischen Funktionen (Masternodes, Obfuscate, SwiftTX, Budgeting) (0-1, Standard: %u)</translation>
+        <translation>Vypnúť všetky funkcie špecifické pre Dash (Masternode, Obfuscate, SwiftTX, Rozpočty) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Unter MIT Software Lizenz zur Verfügung gestellt, siehe beigefügte Datei COPYING oder &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+        <translation>Distribuované pod softvérovou licenciou MIT, viď sprievodný súbor COPYING alebo &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
         <source>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Aktiviere SwiftTX, zeige Bestätigungen für gesperrte Transaktionen an (bool, Standard: %s)</translation>
+        <translation>Zapnúť SwiftTX, ukázať potvrdenia pre zamknuté transakcie (bool, predvolené: %s)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscate for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Aktiviere Obfuscate automatisch (0-1, Standard: %u)</translation>
+        <translation>Povoliť používanie automatického obfuscate pre zdroje uložené v tejto peňaženke (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Fehler: Parameter -socks wird nicht mehr unterstützt. Setzen der SOCKS-Version ist nicht mehr möglich, es werden nur noch SOCKS5 Proxies unterstützt.</translation>
+        <translation>Chyba: Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Fees (in DNET/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Niedrigere Gebühren (in DNET pro Kb) als diese werden bei der Vermittlung als gebührenfrei angesehen (Standard: %s)</translation>
+        <translation>Poplatky (v DNET za Kb) menšie ako toto, sú považované za nulový poplatok pre prenos (predvolené: %s)</translation>
     </message>
     <message>
         <source>Fees (in DNET/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Niedrigere Gebühren (in DNET pro Kb) als diese werden bei der Transaktionserzeugung als gebührenfrei angesehen (Standard: %s)</translation>
+        <translation>Poplatky (v DNET za Kb) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Datenbankaktivitäten vom Arbeitsspeicher-Pool alle &lt;n&gt; Megabyte auf den Datenträger schreiben (Standard: %u)</translation>
+        <translation>Vyprázdniť databázovú aktivitu s pamäte do diskového logu každých &lt;n&gt; megabajtov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Unbestätigte für Obfuscate vorbereitete Ausgabebeträge gefunden, warte bis sie bestätigt sind bevor weitergemacht wird.</translation>
+        <translation>Nájdené nepotvrdené denominované výstupy, pre pokračovanie sa čaká kým sa nepotvrdia.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Legt fest, wie gründlich die Blockverifikation von -checkblocks ist (0-4, Standard: %u)</translation>
+        <translation>Ako dôkladné je -checkblocks overenie blokov (0-4, predvolené: %u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Falls paytxfee  nicht gesetzt wurde automatisch genug Transaktionsgebühren hinzufügen, um die Transaktion durchschnittlich innerhalb n Blöcken zu bestätigen (Standard: %u)</translation>
+        <translation>Ak nie je nastavené paytxfee, pridať dostatočný poplatok aby sa transakcia začala potvrdzovať priemerne v rámci bloku (predvolené: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Ungültiger Betrag für -maxtxfee=&lt;amount&gt;: '%s' (Betrag muss mindestens minrelay von %s Gebühren sein um "hängende" Transaktionen zu vermeiden)</translation>
+        <translation>Neplatná suma pre -maxtxfee=&lt;amount&gt;: '%s' (aby sa transakcia nezasekla, minimálny prenosový poplatok musí byť aspoň %s)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Transaktionspriorität und Gebühr pro kB beim Erzeugen von Blöcken protokollieren (Standard: %u)</translation>
+        <translation>Zaznamenať prioritu transakcií a poplatok za kB pri ťažbe blokov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Einen vollständigen Transaktionsindex für den getrawtransaction RPC-Aufruf führen (Standard: %u)</translation>
+        <translation>Udržiavať kompletný transakčný index, využíva getrawtransaction rpc volanie (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maximale Datengröße für von uns weitergegebenen Übermittlungstransaktionen (Standard: %u)</translation>
+        <translation>Maximálna veľkosť dát v transakciách nosných dát, ktoré prenášame a ťažíme (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Maximale Gesamtgebühren für eine einzelne Transaktion.  Sind diese Gebühren zu gering könnten große Transaktionen evtl. abgebrochen werden (Standard: %s)</translation>
+        <translation>Celkové maximum poplatkov pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Anzahl Sekunden, während denen sich nicht konform verhaltenden Gegenstellen die Wiederverbindung verweigert wird (Standard: %u)</translation>
+        <translation>Počet sekúnd, počas ktorých nepripájať zle správajúce sa uzle (predvolené: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Debugging-Informationen ausgeben (Standard: %u, &lt;category&gt; anzugeben ist optional)</translation>
+        <translation>Výstupné ladiace informácie (predvolené: %u, dodanie &lt;category&gt; je voliteľné)</translation>
     </message>
     <message>
         <source>Provide liquidity to Obfuscate by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Durch diese Einstellung können Sie dem Obfuscate-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte Dash wieder dem Mixing-Prozess zuführen. (0-100, 0=aus, 1=sehr oft, 100=sehr selten (wenig Gebühren). Standard: %u)</translation>
+        <translation>Poskytnúť likviditu pre Obfuscate nepravidelným miešaním mincí na kontinuálnej báze (0-100, predvolené: %u, 1=veľmi často, vysoké poplatky, 100=veľmi zriedkavo, malé poplatky)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Verlange hohe Priorität für die Vermittlung von kostenlosen oder mit niedrigen Gebühren versehenen Transaktionen (Standard: %u)</translation>
+        <translation>Vyžaduje sa vysoká priorita pre prenos poplatku alebo transakcie s malým poplatkom (predvolené:%u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Rückverfolgungs- und Debuginformationen an die Konsole senden, anstatt sie in debug.log zu schreiben (Standard: %u)</translation>
+        <translation>Poslať sledovacie/ladiace informácie konzole namiesto debug.log súboru (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Legt ein Prozessor-/CPU-Kernlimit fest, wenn CPU-Mining aktiviert ist (-1 = unbegrenzt, Standard: %d)</translation>
+        <translation>Nastaviť počet vlákien pre generáciu mincí (-1 = všetky jadrá, predvolené: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Anzahl Bestätigungen  für eine erfolgreich gesperrte Transaktion (0-9999, voreingestellt: %u)</translation>
+        <translation>Ukázať N potvrdení pre úspešne zamknutú transakciu (0-9999, predvolené: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Dieses Produkt enthält vom OpenSSL-Projekt entwickelte Software zur Benutzung des OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, kryptographische Software geschrieben von Eric Young und UPnP Software geschrieben von Thomas Bernard.</translation>
+        <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use darknetd, or the -server option to darknet-qt, you must set an rpcpassword in the configuration file:
+        <source>To use darknetd, or the -server option to smc-coin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=darknetrpc
@@ -3721,539 +3720,539 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Dash Alert" admin@foo.com
 </source>
-        <translation>Um darknetd (oder darknet-qt mit dem -server Parameter) zu benutzen müssen Sie ein rpcpasswort in dieser Konfigurationsdatei angeben:
+        <translation>Pre použitie možnosti -server pre smc-coin-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
-Es wird empfohlen das folgende Zufallspasswort zu verwenden:
+Doporučuje sa použiť nasledovné náhodné heslo:
 rpcuser=darknetrpc
 rpcpassword=%s
-(Sie müssen sich dieses Passwort nicht merken!)
-Der Benutzername und das Passwort dürfen NICHT identisch sein.
-Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.
-Es wird ebenfalls empfohlen alertnotify anzugeben, um im Problemfall benachrichtigt zu werden;
-zum Beispiel: alertnotify=echo %%s | mail -s \"Dash Alert\" admin@foo.com</translation>
+(toto heslo si nemusíte pamätať)
+Používateľské meno a heslo NEMÔŽU byť rovnaké.
+Ak súbor neexistuje, vytvoriť na nastaviť práva tak aby ho mohol čítať iba vlastník.
+Tiež sa doporučuje nastaviť alertnotify, aby ste boli upozornený na problém,
+napríklad: alertnotify=echo %%s | mail -s "Dash Upozornenie" admin@foo.com
+</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 1000 DNET.</source>
-        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 DNET sind.</translation>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 DNET.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Separaten SOCKS5-Proxy verwenden, um Gegenstellen über versteckte Tor-Dienste zu erreichen (Standard: %s)</translation>
+        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor (predvolené: %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Warnung: -maxtxfee ist auf einen sehr hohen Wert gesetzt! Diese Gebühr könnte schon beim Senden einer einzelnen Transaktion fällig werden.</translation>
+        <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dash Core will not work properly.</source>
-        <translation>Warnung: Bitte überprüfen Sie die Datums- und Uhrzeiteinstellungen ihres Computers, da Dash Core ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Dash Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Erlaube Gegenstellen mit dieser Netzmaske oder IP-Adresse. Diese Option kann mehrmals eingetragen werden.</translation>
+        <translation>Uzle na zoznam povolených, ktoré sa pripájajú z danej netmask alebo IP adresy. Môže byť zadané viac krát.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Erlaubte Gegenstellen können nicht wegen DoS ausgeschlossen werden und ihre Transaktionen werden immer weitergeleitet, sogar wenn sie schon im Memory-Pool sind. Dies ist z.B. für Gateways nützlich.</translation>
+        <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
     </message>
     <message>
         <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 kann nur im Standardnetz benutzt werden)</translation>
+        <translation>(51472 nemôže byť použité pre hlavnú sieť)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(Standard: %s)</translation>
+        <translation>(predvolené: %s)</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:
 </source>
-        <translation>&lt;category&gt; kann sein:
+        <translation>&lt;category&gt; môže byť:
 </translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Akzeptiere öffentliche REST-Anforderungen (Standard: %u)</translation>
+        <translation>Akceptovať verejné REST žiadosti (predvolené: %u)</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: %s)</source>
-        <translation>Akzeptierte Verschlüsselungen (Standard: %s) </translation>
+        <translation>Prijateľné šifry (predvolené: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Peer-Adressen immer über DNS abfragen (Standard: %u)</translation>
+        <translation>Vždy sa dotazovať adresy partnerských uzlov cez vyhľadávanie DNS (predvolené: %u)</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Kann Adresse via -whitebind nicht auflösen: '%s'</translation>
+        <translation>Nedá sa vyriešiť -whitebind adresa: '%s'</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Über einen SOCKS5-Proxy verbinden</translation>
+        <translation>Pripojiť sa cez SOCKS5 proxy</translation>
     </message>
     <message>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: %u)</source>
-        <translation>Mit KeePassHttp auf &lt;port&gt; verbinden (Standard: %u)</translation>
+        <translation>Pripojiť ku KeePassHttp na porte &lt;port&gt; (predvolené: %u)</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Die "Bitcoin Core"-Entwickler</translation>
+        <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>Copyright (C) 2014-%i Die "Dash Core"-Entwickler</translation>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra Dash</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
-        <translation>-rpcbind Wert %s konnte nicht als Netzwerkadresse erkannt werden</translation>
+        <translation>Nedá sa analyzovať -rpcbind hodnota %s ako sieťová adresa</translation>
     </message>
     <message>
         <source>Obfuscate is idle.</source>
-        <translation>Obfuscate ist untätig.</translation>
+        <translation>Obfuscate je nečinný.</translation>
     </message>
     <message>
         <source>Obfuscate request complete:</source>
-        <translation>Obfuscate-Anfrage vollständig:</translation>
+        <translation>Obfuscate požiadavok dokončený:</translation>
     </message>
     <message>
         <source>Obfuscate request incomplete:</source>
-        <translation>Obfuscate-Anfrage unvollständig:</translation>
+        <translation>Obfuscate požiadavok nedokončený:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
-        <translation>Sicherheitsmodus deaktivieren, überschreibt ein echtes Sicherheitsmodusereignis (Standard: %u)</translation>
+        <translation>Vypnúť núdzový režim, prepísať skutočnú udalosť núdzového režimu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Masternode-Modus aktivieren. (0=aus, 1=an; Voreinstellung: %u)</translation>
+        <translation>Povoliť klientovi aby vystupoval ako masternode (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
-        <translation>Fehler bei der Verbindung zum Masternode.</translation>
+        <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Dash Core</source>
-        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von Dash Core</translation>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Dash Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Fehler: ein interner Fehler ist aufgetreten, Details sind in der Datei debug.log</translation>
+        <translation>Chyba: Nastala fatálna interná chyba. Pre podrobnosti pozrite debug.log</translation>
     </message>
     <message>
         <source>Error: Can't select current denominated inputs</source>
-        <translation>Fehler: die aktuell gestückelten Inputs können nicht ausgewählt werden</translation>
+        <translation>Chyba: Nedajú sa vybrať súčasné denominované vstupy </translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Fehler: Paramter -tor wird nicht unterstützt, bitte -onion benutzen.</translation>
+        <translation>Chyba: nájdený nepodporovaný argument -tor, použite -onion.</translation>
     </message>
     <message>
         <source>Fee (in DNET/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebühren (in DNET pro Kb), die gesendeten Transaktionen hinzugefügt werden (Standard: %s)</translation>
+        <translation>Pridať poplatok (v DNET za kB) do transakcií ktoré posielate (predvolené: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
-        <translation>Füge Transaktion zusammen.</translation>
+        <translation>Dokončuje sa transakcia.</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
-        <translation>Sicherheitsmodus erzwingen (Standard: %u)</translation>
+        <translation>Vynútiť núdzový režim (predvolené: %u)</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Genug Partner gefunden, signiere ( warte %s )</translation>
+        <translation>Nájdený dostatok používateľov, pospisuje sa ( čakanie %s )</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Genug Partner gefunden, signiere ... </translation>
+        <translation>Nájdený dostatok používateľov, pospisuje sa ...</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Coins erzeugen (Standard: %u)</translation>
+        <translation>Generovať mince (predvolené: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Wieviele Blöcke beim Starten geprüft werden sollen (Standard: %u, 0 = alle)</translation>
+        <translation>Koľko blokov overiť pri spustení (predvolené: %u, 0 = všetky)</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importiere...</translation>
+        <translation>Importuje sa...</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Blöcke aus externer Datei blk000??.dat importieren</translation>
+        <translation>Importovať bloky z externého blk000??.dat súboru</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>IP-Adressen in die Debug-Ausgabe mit aufnehmen (Standard: %u)</translation>
+        <translation>Zahrnúť IP adresy v ladiacom výstupe (predvolené: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Inkompatibler Modus.</translation>
+        <translation>Nekompatibilný mód.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Inkompatible Version.</translation>
+        <translation>Nekompatibilná verzia.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Fehlerhafter oder kein Genesis-Block gefunden. Falsches Datenverzeichnis für das Netzwerk?</translation>
+        <translation>Nesprávny alebo žiadny genesis blok nájdený. Nesprávny dátový priečinok alebo sieť?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Hinweis</translation>
+        <translation>Informácia</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. Dash Core is shutting down.</source>
-        <translation>Fehler beim Initialisieren (Plausibilitätsprüfung fehlgeschlagen).
-Dash Core wird heruntergefahren.</translation>
+        <translation>Inicializácia kontroly zdravia zlyhala. Dash Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Eintrag ist nicht gültig.</translation>
+        <translation>Vstup nie je platný.</translation>
     </message>
     <message>
         <source>SwiftTX options:</source>
-        <translation>SwiftTX Optionen:</translation>
+        <translation>Možnosti SwiftTX:</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Unzureichender Kontostand.</translation>
+        <translation>Nedostatok prostriedkov.</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Ungültige "-onion"-Adresse: '%s'</translation>
+        <translation>Neplatná -onion adresa: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Ungültige Adresse in -proxy: '%s'</translation>
+        <translation>Neplatná -proxy adresa: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -maxtxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neplatná suma pre -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neplatná suma pre -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -mintxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neplatná suma pre -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: '%s' (Betrag muss mindestens %s sein)</translation>
+        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s' (musí byť aspoň %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Last successful Obfuscate action was too recent.</source>
-        <translation>Die letzte erfolgreiche Obfuscate-Transaktion ist noch zu neu.</translation>
+        <translation>Posledná Dasksend akcia bola pred chvíľou.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Größe des Signaturcaches auf &lt;n&gt; Einträge begrenzen (Standard: %u)</translation>
+        <translation>Obmedziť veľkosť podpisovej vyrovnávajúcej pamäti na &lt;n&gt; položiek (predvolené: %u)</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>&lt;port&gt;nach JSON-RPC-Verbindungen abhören (Standard: %u oder Testnetz: %u)</translation>
+        <translation>Počúvať JSON-RPC pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: %u oder Testnetz: %u)</translation>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
-        <translation>Lade Budget-Cache...</translation>
+        <translation>Načíta sa vyrovnávacia pamäť rozpočtu...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Lade Masternode-Cache...</translation>
+        <translation>Načíta sa vyrovnávacia pamäť masternode...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Lade Masternode Zahlungs-Cache...</translation>
+        <translation>Načíta sa vyrovnávacia pamäť platieb masternode...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>Schon gesperrt.</translation>
+        <translation>Zámok je už na mieste.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Masternodes über Masternode-Konfiguration sperren (Standard: %u)</translation>
+        <translation>Zamknúť masternody z konfiguračného súboru masternode (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Maximal &lt;n&gt; Verbindungen zu Gegenstellen aufrechterhalten (Standard: %u)</translation>
+        <translation>Udržiavať najviac &lt;n&gt; spojení s inými počítačmi (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximale Größe des Empfangspuffers pro Verbindung, &lt;n&gt; * 1000 Byte (Standard: %u)</translation>
+        <translation>Maximálna prijímajúca medzipamäť pre pripojenie, &lt;n&gt;*1000 bajtov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximale Größe des Sendepuffers pro Verbindung, &lt;n&gt; * 1000 Byte (Standard: %u)</translation>
+        <translation>Maximálna odosielajúca medzipamäť pre pripojenie, &lt;n&gt;*1000 bajtov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>Am Mixen...</translation>
+        <translation>Prebieha miešanie...</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Für -whitebind muss eine Portnummer angegeben werden: '%s'</translation>
+        <translation>Je potrebné zadať port s -whitebind: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Keine Masternodes gefunden.</translation>
+        <translation>Nezistený žiadny Masternode.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Kein kompatibler Masternode gefunden.</translation>
+        <translation>Nekompatibilný Masternode zdroj.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Nicht in der Masternode-Liste.</translation>
+        <translation>Nie je v zozname Masternode.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Anzahl automatischer Wallet-Sicherungskopien (Standard: 10)</translation>
+        <translation>Počet automatických záloh peňaženky (predvolené: 10)</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>Blockkette nur als gültig ansehen, wenn sie mit den integrierten Prüfpunkten übereinstimmt (Standard: %u)</translation>
+        <translation>Akceptovať iba reťazce blokov, ktoré sa zhodujú zo zabudovanými kontrolnými bodmi (predvolené: %u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Verbinde nur zu Knoten des Netztyps &lt;net&gt; (ipv4, ipv6 oder onion)</translation>
+        <translation>Pripojiť iba k uzlom v sieti &lt;net&gt; (ipv4, ipv6, alebo onion)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Debugausgaben einen Zeitstempel voranstellen (Standard: %u)</translation>
+        <translation>Na začiatok pripojiť časovú známku k ladiacemu výstupu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>Einen Thread starten, der periodisch die Wallet auf den Datenträger sichert (Standard: %u)</translation>
+        <translation>Spúšťať vlákno pre pravidelné vyprázdnenie peňaženky (predvolené: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
-        <translation>Rückverfolgungs- und Debuginformationen in debug.log schreiben (Standard: %u)</translation>
+        <translation>Poslať sledovacie/ladiace informácie do debug.log súboru (predvolené: %u)</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Wenn möglich als gebührenfreie Transaktion versenden (Standard: %u)</translation>
+        <translation>Poslať ako transakcie bez poplatku, ak je to možné (predvolené: %u)</translation>
     </message>
     <message>
         <source>Server certificate file (default: %s)</source>
-        <translation>Datei mit Serverzertifikat (Standard: %s)</translation>
+        <translation>Certifikačný súbor servera (predvolené: %s)</translation>
     </message>
     <message>
         <source>Server private key (default: %s)</source>
-        <translation>Privater Serverschlüssel (Standard: %s)</translation>
+        <translation>Privátny kľúč servera (predvolené: %s)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Setze externe Adresse und Port, um diesen Masternode zu erreichen (Beispiel: %s)</translation>
+        <translation>Nastaviť externú adresu:port ktorý sa dostane sa k tomuto masternode (príklad: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Größe des Schlüsselpools festlegen auf &lt;n&gt; (Standard: %u)</translation>
+        <translation>Nastaviť veľkosť kľúča fronty na &lt;n&gt; (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Minimale Blockgröße in Bytes festlegen (Standard: %u)</translation>
+        <translation>Nastaviť minimálnu veľkosť bloku v bajtoch (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Maximale Anzahl an Threads zur Verarbeitung von RPC-Anfragen festlegen (Standard: %d)</translation>
+        <translation>Nastaviť počet vlákien na obsluhu RPC volaní (predvolené: %d)</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>DB_PRIVATE-Flag in der Wallet-Datenbankumgebung setzen (Standard: %u)</translation>
+        <translation>Nastaviť DB_PRIVATE príznak v prostredí peňaženky (predvolené: %u)</translation>
     </message>
     <message>
         <source>Signing timed out.</source>
-        <translation>Zeitüberschreitung der Signierung.</translation>
+        <translation>Časový limit pre prihlásenie uplynul.</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Konfigurationsdatei festlegen (Standard: %s)</translation>
+        <translation>Zadať konfiguračný súbor (predvolené: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Verbindungzeitüberschreitung in Millisekunden festlegen (Minimum: 1, Standard: %d)</translation>
+        <translation>Zadajte časový limit pripojenia v milisekundách (minimum: 1, predvolené: %d)</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Konfigurationsdatei der Masternode-Einstellungen angeben (Standard: %s)</translation>
+        <translation>Zadať konfiguračný súbor masternode (predvolené: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>pid-Datei angeben (Standard: %s)</translation>
+        <translation>Zadať pid súbor (predvolené: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Unbestätigtes Wechselgeld beim Senden von Transaktionen ausgeben (Standard: %u)</translation>
+        <translation>Minúť nepotvrdené zmenu pri posielaní transakcií (predvolené: %u)</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>Nach dem Import von Blöcken von der Festplatte Programm beenden (Standard: %u)</translation>
+        <translation>Ukončiť činnosť po importovaní blokov z disku (predvolené: %u)</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Folgende Einträge wurden an Masternode gesendet: %u / %d</translation>
+        <translation>Položky odoslané na masternode: %u / %d</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>An Masternode gesendet, warte auf weitere Einträge ( %u / %d ) %s</translation>
+        <translation>Odoslané na masternode, čaká na viac položiek ( %u / %d ) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>An Masternode übermittelt, wartet in Warteschlange %s</translation>
+        <translation>Odoslané na masternode, čaká vo fronte %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synchronisation fehlgeschlagen</translation>
+        <translation>Synchronizácia zlyhala</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synchronisation beendet</translation>
+        <translation>Synchronizácia dokončená</translation>
     </message>
     <message>
         <source>Synchronizing budgets...</source>
-        <translation>Synchronisiere Budgets...</translation>
+        <translation>Synchronizujú sa rozpočty...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>
-        <translation>Synchronisiere Masternode Gewinner...</translation>
+        <translation>Synchronizujú sa masternode víťazi...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synchronisiere Masternodes...</translation>
+        <translation>Synchronizujú sa masternode...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
-        <translation>Synchronisiere Sporks...</translation>
+        <translation>Synchronizujú sa sporky...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>Dies ist kein Masternode.</translation>
+        <translation>Toto nie je Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Schwellenwert, um Verbindungen zu sich nicht konform verhaltenden Gegenstellen zu beenden (Standard: %u)</translation>
+        <translation>Hranica pre odpájanie zle sa správajúcim partnerským uzlom (predvolené: %u)</translation>
     </message>
     <message>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
-        <translation>"KeePass 2"-Integration mit KeePassHttp-plugin (Standard: %u)</translation>
+        <translation>Použiť integráciu KeePass 2 s využitím doplnku KeePassHttp (predvolené: %u)</translation>
     </message>
     <message>
         <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
-        <translation>N unterschiedliche Masternodes benutzen, um Dash zu anonymisieren (2-8, Standard: %u)</translation>
+        <translation>Použiť N rozdielnych masternode na anonymizovanie zdrojov (2-8, predvolené: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: %u)</translation>
+        <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Dash Core to complete</source>
-        <translation>Die Wallet musste neu geschrieben werden. Bitte das Programm neu starten um den Vorgang abzuschließen</translation>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Dash Core</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Warnung: Veraltetes Argument -benchmark wird ignoriert, bitte -debug=bench verwenden.</translation>
+        <translation>Upozornenie: Nepodporovaný argument -benchmark bol ignorovaný, použite -debug=bench.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Warnung: Veraltetes Argument -debugnet wird ignoriert, bitte -debug=net verwenden.</translation>
+        <translation>Upozornenie: Nepodporovaný argument -debugnet bol ignorovaný, použite -debug=net.</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Versuche erneut...</translation>
+        <translation>Skúsime znovu...</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Masternode-Geheimschlüssel (masternodeprivkey) ist ungültig. Siehe Dokumentation. </translation>
+        <translation>Neplatný masternodeprivkey. Prosím pozrite do dokumentácie.</translation>
     </message>
     <message>
         <source>(must be51472 for mainnet)</source>
-        <translation>(muss für Standardnetz51472 sein)</translation>
+        <translation>(pre hlavnú sieť musí byť 9999)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Kann keinen zufällig ausgewählten Masternode finden</translation>
+        <translation>Nedá sa nájsť náhodný Masternode.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Währen der Synchronisierung kann nicht gemixt werden.</translation>
+        <translation>Miešanie nefunguje počas synchronizácie.</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation>masternode.conf konnte nicht analysiert werden</translation>
+        <translation>Nedá sa analyzovať masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Ungültige Netzmaske für -whitelist angegeben: '%s'</translation>
+        <translation>Nadaná neplatná netmask vo -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Ungültige Portnummer in masternode.conf</translation>
+        <translation>Zistený neplatný port v masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
-        <translation>Fehlerhafter privater Schlüssel.</translation>
+        <translation>Neplatný súkromný kľúč.</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Invalides Zahlskript entdeckt.</translation>
+        <translation>Zistený neplatný skript.</translation>
     </message>
     <message>
         <source>KeePassHttp id for the established association</source>
-        <translation>"KeePassHttp id" für bestehende verknüpfte Verbindungen.</translation>
+        <translation>Identifikátor KeePassHttp pre zavedené priradenie</translation>
     </message>
     <message>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
-        <translation>"KeePassHttp key" für die  AES-verschlüsselte Kommunikation mit "KeePass"</translation>
+        <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
         <source>Keep N DNET anonymized (default: %u)</source>
-        <translation>Betrag welcher anonymisiert vorgehalten wird. (Voreinstellung: %u)</translation>
+        <translation>Udržiavať N DNET anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Maximal &lt;n&gt; (noch) nicht einsortierte Zahlungen zwischenspeichern (Voreinstellung: %u)</translation>
+        <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscate was too recent.</source>
-        <translation>Letzte Obfuscate-Transaktion ist noch zu neu.</translation>
+        <translation>Posledný Dasksend bol pred chvíľou.</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Zeile: %d</translation>
+        <translation>Riadok: %d</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Lade Adressen...</translation>
+        <translation>Načítavanie adries...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Lade Blockindex...</translation>
+        <translation>Načítavanie zoznamu blokov...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Lade Wallet... (%3.2f %%)</translation>
+        <translation>Načítavanie peňaženky... (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Lade Wallet...</translation>
+        <translation>Načítavanie peňaženky...</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Masternode Optionen:</translation>
+        <translation>Možnosti Masternode:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Warteschlange der Masternode ist voll.</translation>
+        <translation>Fronta Masternode je plná</translation>
     </message>
     <message>
         <source>Masternode:</source>
@@ -4261,279 +4260,279 @@ Dash Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Fehlende Informationen zur Eingangs-Transaktion.</translation>
+        <translation>Chýbajú vstupy transakčnej informácie.</translation>
     </message>
     <message>
         <source>No funds detected in need of denominating.</source>
-        <translation>Kein Kapital gefunden, dass zerstückelt werden muss.</translation>
+        <translation>Nedetekované žiadne zdroje pre potreby denominácie.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Keine passende Zerstückelungen zum Mixen gefunden.</translation>
+        <translation>Nenájdené zhodné denominované zdroje pre miešanie.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Vermittlungs-Optionen für Knoten:</translation>
+        <translation>Prenosové možnosti uzla:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>nicht Standard öffentlicher Schlüssel erkannt.</translation>
+        <translation>Detekovaný neštandardný verejný kľúč.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Nicht kompatibel mit existierenden Transaktionen.</translation>
+        <translation>Nie je kompatibilné s existujúcou transakciou.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Nicht genügend Datei-Deskriptoren verfügbar.</translation>
+        <translation>Nedostatok kľúčových slov súboru.</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Optionen:</translation>
+        <translation>Možnosti:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Passwort für JSON-RPC-Verbindungen</translation>
+        <translation>Heslo pre JSON-rPC spojenia</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL Optionen: (siehe Bitcoin Wiki für eine Installationsanleitung)</translation>
+        <translation>Možnosti RPC SSL: (Pozri v Bitcoin Wiki pokyny pre SSL nastavenie)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC-Serveroptionen:</translation>
+        <translation>Možnosti servra RPC:</translation>
     </message>
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>RPC-Unterstützung für persistente HTTP-Verbindungen (default: %d)</translation>
+        <translation>Podpora RPC pre trvalé HTTP spojenia (predvolené: %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Zufällig eine von &lt;n&gt; Netzwerknachrichten verwerfen</translation>
+        <translation>Náhodne zahodiť 1 každých &lt;n&gt; sieťových správ</translation>
     </message>
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Zufällig eine von &lt;n&gt; Netzwerknachrichten verwürfeln</translation>
+        <translation>Náhodne prilepiť 1 každých &lt;n&gt; sieťových správ</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Blockkettenindex aus aktuellen Dateien blk000??.dat wieder aufbauen</translation>
+        <translation>Znovu vytvoriť index reťazca blokov zo súčastných blk000??.dat súborov</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>P2P Netzwerk-Alarme empfangen und anzeigen (Standard: %u)</translation>
+        <translation>Obdržať a zobraziť sieťové P2P varovania (predvolené: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>"Data Carrier"-Transaktionen weiterleiten (Standard: %u)</translation>
+        <translation>Prenášať a ťažiť transakcie nosných dát (predvolené: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Nicht-P2SH-Multisig weiterleiten (Standard: %u)</translation>
+        <translation>Prenášať non-P2SH multi-podpis (predvolené: %u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Blockkette erneut nach fehlenden Wallet-Transaktionen durchsuchen</translation>
+        <translation>Znova prehľadať reťazec blokov pre nájdenie chýbajúcich transakcií peňaženky</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Durchsuche erneut...</translation>
+        <translation>Znova prehľadávam...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Als Hintergrunddienst ausführen und Befehle annehmen</translation>
+        <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Sitzung ist nicht vollständig!</translation>
+        <translation>Relácia nie je dokončená!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Zeitüberschreitung der Sitzung.</translation>
+        <translation>Relácia vypršala.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Größe des Datenbankcaches in Megabyte festlegen (%d bis %d, Standard: %d)</translation>
+        <translation>Nastaviť veľkosť pomocnej pamäti databázy v megabajtoch (%d do %d, prednastavené: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Maximale Blockgröße in Byte festlegen (Standard: %d)</translation>
+        <translation>Nastaviť maximálnu veľkosť v bajtoch (predvolené: %d)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Privaten Masternode-Schlüssel setzen</translation>
+        <translation>Nastaviť súkromný kľúč masternode</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Zeige alle Debuggingoptionen (Benutzung: --help -help-debug)</translation>
+        <translation>Zobraziť všetky možnosti ladenia (použitie: --help --help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Protokolldatei debug.log beim Starten des Clients kürzen (Standard: 1, wenn kein -debug)</translation>
+        <translation>Stlačiť debug.log súbor na spustenie klienta (predvolené: 1, keď nie -debug)</translation>
     </message>
     <message>
         <source>Signing failed.</source>
-        <translation>Signierung fehlgeschalgen.</translation>
+        <translation>Podpisovanie zlyhalo.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Signierung der Transaktion fehlgeschlagen</translation>
+        <translation>Podpisovanie transakcie zlyhalo</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Datenverzeichnis festlegen</translation>
+        <translation>Zadať dátový adresár</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Wallet-Datei angeben (innerhalb des Datenverzeichnisses)</translation>
+        <translation>Zadajte súbor peňaženky (vrámci dátovej zložky)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Die eigene öffentliche Adresse angeben</translation>
+        <translation>Zadajte Vašu vlastnú verejnú adresu</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Synchronisation steht bevor...</translation>
+        <translation>Synchronizácia čaká...</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>Dieser Hilfetext</translation>
+        <translation>Táto pomocná správa</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Dies ist experimentelle Software.</translation>
+        <translation>Toto je experimentálny softvér. </translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>Dies ist für Regressionstest-Tools und Anwendungsentwicklung gedacht.</translation>
+        <translation>Toto je určené pre regresiu testovacích nástrojov and vývojárskych aplikácií.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Transaktionsbetrag zu niedrig</translation>
+        <translation>Suma transakcie je príliš malá</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>Transaktionsbeträge müssen positiv sein</translation>
+        <translation>Sumy transakcie musia byť kladné</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Transaktion erfolgreich erstellt.</translation>
+        <translation>Transakcia úspešne vytvorená</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Transaktionsgebühren sind zu hoch.</translation>
+        <translation>Transakčné poplatky sú príliš vysoké</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Transaktion ungültig.</translation>
+        <translation>Neplatná transakcia.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transaktion ist für die Gebührenrichtlinie zu groß</translation>
+        <translation>Transakcia je príliš veľká pre aktuálne podmienky poplatkov</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transaktion zu groß</translation>
+        <translation>Transakcia je príliš veľká</translation>
     </message>
     <message>
         <source>Transmitting final transaction.</source>
-        <translation>Übertrage fertige Transaktion.</translation>
+        <translation>Vysiela sa finálna transakcia.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Kann auf diesem Computer nicht an %s binden (von bind zurückgegebener Fehler: %s)</translation>
+        <translation>Na tomto počítači sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Die Spork-Nachricht konnte nicht signiert werden. Wurde der Key falsch gesetzt?</translation>
+        <translation>Nedá sa podpísať spork správa, žeby zlý kľúč?</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Unbekannter Netztyp in -onlynet angegeben: '%s'</translation>
+        <translation>Špecifikovaná neznáma sieť v -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Unbekannter Status: id = %u</translation>
+        <translation>Neznámy stav: id = %u</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Wallet auf das neueste Format aktualisieren</translation>
+        <translation>Inovovať peňaženku na posledný formát</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>OpenSSL (https) für JSON-RPC-Verbindungen verwenden</translation>
+        <translation>Použiť OpenSSL (https) pre JSON-RPC spojenia</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: 1, wenn abgehört wird)</translation>
+        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Das Testnetz verwenden</translation>
+        <translation>Použiť testovaciu sieť</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Benutzername für JSON-RPC-Verbindungen</translation>
+        <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
     </message>
     <message>
         <source>Value more than Obfuscate pool maximum allows.</source>
-        <translation>Wert größer als der vom Obfuscate Pool maximal erlaubte.</translation>
+        <translation>Väčšia hodnota ako dovoľuje fronta Obfuscate.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Verifiziere Blöcke...</translation>
+        <translation>Overovanie blokov</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Verifiziere Wallet...</translation>
+        <translation>Overovanie peňaženky</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Wallet %s liegt außerhalb des Datenverzeichnisses %s</translation>
+        <translation>Peňaženka %s je umiestnená mimo dátový adresár %s.</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Wallet gesperrt.</translation>
+        <translation>Peňaženka je zamknutá.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Wallet-Optionen:</translation>
+        <translation>Možnosti peňaženky:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Fensterüberschrift des Wallet</translation>
+        <translation>Nadpis okna peňaženky</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warnung</translation>
+        <translation>Upozornenie</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Warnung: Diese Version is veraltet, Aktualisierung erforderlich!</translation>
+        <translation>Upozornenie: Táto verzia je zastaraná, vyžaduje sa aktualizácia!</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um -txindex zu verändern</translation>
+        <translation>Potrebujete prebudovať databázu použitím -reindex zmeniť -txindex</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Ihre Einträge wurden erfolgreich hinzugefügt.</translation>
+        <translation>Vaše položky boli úspešne pridané.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Ihre Transaktion wurde im Pool akzeptiert!</translation>
+        <translation>Vaša transakcia bola pridaná do fronty!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Lösche alle Transaktionen aus Wallet...</translation>
+        <translation>Vymazať všetky transakcie z peňaženky...</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation>beim Starten</translation>
+        <translation>pri spustení</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat beschädigt, Datenrettung fehlgeschlagen</translation>
+        <translation>wallet.dat je poškodený, záchrana zlyhala</translation>
     </message>
 </context>
 </TS>

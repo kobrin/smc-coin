@@ -95,7 +95,7 @@ Issue the following:
 Make note of the hash (which is your collaterla_output) and index.
 
 ### Enter your MasterNode details into your masternode.conf file
-[From the darknet github repo](https://github.com/darkcoin/darkcoin/blob/master/doc/masternode_conf.md)
+[From the smc-coin github repo](https://github.com/darkcoin/darkcoin/blob/master/doc/masternode_conf.md)
 
 The new masternode.conf format consists of a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index, donation address and donation percentage (the latter two are optional and should be in format "address:percentage").
 
@@ -108,24 +108,24 @@ alias ipaddress:port masternode_private_key collateral_output collateral_output_
 Example:
 
 ```
-mn01 127.0.0.1:51472 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
-mn02 127.0.0.2:51472 93WaAb3htPJEV8E9aQcN23Jt97bPex7YvWfgMDTUdWJvzmrMqey aa9f1034d973377a5e733272c3d0eced1de22555ad45d6b24abadff8087948d4 0 7gnwGHt17heGpG9Crfeh4KGpYNFugPhJdh:25
+mn01 127.0.0.1:50472 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+mn02 127.0.0.2:50472 93WaAb3htPJEV8E9aQcN23Jt97bPex7YvWfgMDTUdWJvzmrMqey aa9f1034d973377a5e733272c3d0eced1de22555ad45d6b24abadff8087948d4 0 7gnwGHt17heGpG9Crfeh4KGpYNFugPhJdh:25
 ```
 
-## What about the darknet.conf file?
+## What about the smc-coin.conf file?
 
-If you are using a masternode.conf file you no longer need the darknet.conf file. The exception is if you need custom settings (thanks oblox). 
+If you are using a masternode.conf file you no longer need the smc-coin.conf file. The exception is if you need custom settings (thanks oblox). 
 
-## Update darknet.conf on server
+## Update smc-coin.conf on server
 
-If you generated a new masternode private key, you will need to update the remote darknet.conf files.
+If you generated a new masternode private key, you will need to update the remote smc-coin.conf files.
 
 Shut down the daemon and then edit the file.
 
-```sudo nano .darknet/darknet.conf```
+```sudo nano .smc-coin/smc-coin.conf```
 
 ### Edit the masternodeprivkey
-If you generated a new masternode private key, you will need to update the masternodeprivkey value in your remote darknet.conf file.
+If you generated a new masternode private key, you will need to update the masternodeprivkey value in your remote smc-coin.conf file.
 
 ## Start your MasterNodes
 

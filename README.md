@@ -1,5 +1,5 @@
-DarkNet Repository (Version 1.0.0.0)
-More information at darknet-crypto.com
+Smc-coin Repository (Version 1.0.0.0)
+More information at smc-coin.com
 Visit our ANN thread at bitcointalk.org/index.php?topic=1262920
 
 Coin specs:
@@ -24,7 +24,7 @@ PoS Phase 3: PoS Blocks 1036801-1555200 (Approx. 360 DAYS) 25% annual stake rate
 PoS Phase 4: PoS Blocks 1555201-2073600 (Approx. 360 DAYS) 10% annual stake rate
 PoS Phase 5: PoS Blocks 2073601-2592000 (Approx. 360 DAYS) 5% annual stake rate
 
-DarkNet is a cutting edge crytpocurrency, with many features not available in most other cryptocurrencies. 
+Smc-coin is a cutting edge crytpocurrency, with many features not available in most other cryptocurrencies. 
 Anonymized transactions using coin mixing technology, we call it Obfuscate
 Fast transactions featuring guaranteed zero confirmation transactions, we call it SwiftTX
 Decentralized blockchain voting providing for consensus based advancement of the currency

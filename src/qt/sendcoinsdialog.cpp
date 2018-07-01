@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2016 The DarkNet developers
+// Copyright (c) 2015-2016 The Smc-coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -54,7 +54,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
     connect(ui->checkBoxCoinControlChange, SIGNAL(stateChanged(int)), this, SLOT(coinControlChangeChecked(int)));
     connect(ui->lineEditCoinControlChange, SIGNAL(textEdited(const QString &)), this, SLOT(coinControlChangeEdited(const QString &)));
 
-    // DarkNet specific
+    // Smc-coin specific
     QSettings settings;
     if (!settings.contains("bUseObfuscate"))
         settings.setValue("bUseObfuscate", false);
@@ -856,7 +856,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid DarkNet address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Smc-coin address"));
         }
         else // Valid address
         {

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2016 The DarkNet developers
+// Copyright (c) 2015-2016 The Smc-coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -46,9 +46,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "DarkNet"
-#define QAPP_ORG_DOMAIN "darknet-crypto.com"
-#define QAPP_APP_NAME_DEFAULT "DarkNet-Qt"
-#define QAPP_APP_NAME_TESTNET "DarkNet-Qt-testnet"
+#define QAPP_ORG_NAME "Smc-coin"
+#define QAPP_ORG_DOMAIN "smc-coin.com"
+#define QAPP_APP_NAME_DEFAULT "Smc-coin-Qt"
+#define QAPP_APP_NAME_TESTNET "Smc-coin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

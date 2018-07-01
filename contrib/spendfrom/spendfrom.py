@@ -7,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a darknetd or darknet-Qt running
+# Assumes it will talk to a darknetd or smc-coin-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -33,15 +33,15 @@ def check_json_precision():
         raise RuntimeError("JSON encode/decode loses precision")
 
 def determine_db_dir():
-    """Return the default location of the darknet data directory"""
+    """Return the default location of the smc-coin data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/DarkNet/")
+        return os.path.expanduser("~/Library/Application Support/Smc-coin/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "DarkNet")
-    return os.path.expanduser("~/.darknet")
+        return os.path.join(os.environ['APPDATA'], "Smc-coin")
+    return os.path.expanduser("~/.smc-coin")
 
 def read_bitcoin_config(dbdir):
-    """Read the darknet.conf file from dbdir, returns dictionary of settings"""
+    """Read the smc-coin.conf file from dbdir, returns dictionary of settings"""
     from ConfigParser import SafeConfigParser
 
     class FakeSecHead(object):
@@ -59,15 +59,15 @@ def read_bitcoin_config(dbdir):
                 return s
 
     config_parser = SafeConfigParser()
-    config_parser.readfp(FakeSecHead(open(os.path.join(dbdir, "darknet.conf"))))
+    config_parser.readfp(FakeSecHead(open(os.path.join(dbdir, "smc-coin.conf"))))
     return dict(config_parser.items("all"))
 
 def connect_JSON(config):
-    """Connect to a darknet JSON-RPC server"""
+    """Connect to a smc-coin JSON-RPC server"""
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:
-        config['rpcport'] = 51475 if testnet else 51473
+        config['rpcport'] = 50475 if testnet else 50473
     connect = "http://%s:%s@127.0.0.1:%s"%(config['rpcuser'], config['rpcpassword'], config['rpcport'])
     try:
         result = ServiceProxy(connect)
@@ -110,7 +110,7 @@ def list_available(darknetd):
         vout = rawtx["vout"][output['vout']]
         pk = vout["scriptPubKey"]
 
-        # This code only deals with ordinary pay-to-darknet-address
+        # This code only deals with ordinary pay-to-smc-coin-address
         # or pay-to-script-hash outputs right now; anything exotic is ignored.
         if pk["type"] != "pubkeyhash" and pk["type"] != "scripthash":
             continue
@@ -229,7 +229,7 @@ def main():
     parser.add_option("--fee", dest="fee", default="0.0",
                       help="fee to include")
     parser.add_option("--datadir", dest="datadir", default=determine_db_dir(),
-                      help="location of darknet.conf file with RPC username/password (default: %default)")
+                      help="location of smc-coin.conf file with RPC username/password (default: %default)")
     parser.add_option("--testnet", dest="testnet", default=False, action="store_true",
                       help="Use the test network")
     parser.add_option("--dry_run", dest="dry_run", default=False, action="store_true",
